@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.0
+ * @version     1.0.1
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -72,6 +72,18 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 				<?php } ?>			<div class="control-group">
 				<div class="control-label"><?php echo $this->form->getLabel('name'); ?></div>
 				<div class="controls"><?php echo $this->form->getInput('name'); ?></div>
+			</div>
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('connector'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('connector'); ?></div>
+			</div>
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('parser'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('parser'); ?></div>
+			</div>
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('average_rating'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('average_rating'); ?></div>
 			</div>
 
 

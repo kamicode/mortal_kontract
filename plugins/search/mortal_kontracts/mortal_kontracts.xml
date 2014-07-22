@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>j@kamicode.com</authorEmail>
     <authorUrl>kamicode.com</authorUrl>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>PLG_SEARCH_COM_MORTAL_KONTRACTS_XML_DESCRIPTION</description>
     <files>
         <filename plugin="mortal_kontracts">mortal_kontracts.php</filename>

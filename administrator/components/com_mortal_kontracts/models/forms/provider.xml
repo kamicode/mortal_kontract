@@ -18,6 +18,60 @@
                 
                  required="true"  /> 
 
+       <field name="connector" type="list"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_CONNECTOR"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_CONNECTOR" 
+                
+                
+                 required="true" >
+                <option value="raw">raw</option>
+                <option value="rss">rss</option>
+                <option value="custom">custom</option>
+        </field> 
+
+ 
+		<field name="filter_connector" type="list" onchange="this.form.submit();">
+			<option value="">COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR_FILTER</option>
+			<option value="raw">raw</option>
+			<option value="rss">rss</option>
+			<option value="custom">custom</option>
+		</field> 
+
+       <field name="parser" type="list"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_PARSER"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_PARSER" 
+                
+                
+                
+            multiple="false">
+                <option value="raw">raw</option>
+                <option value="craigslist">craigslist</option>
+                <option value="kijiji">kijiji</option>
+                <option value="smart">smart</option>
+        </field> 
+
+ 
+		<field name="filter_parser" type="list" onchange="this.form.submit();">
+			<option value="">COM_MORTAL_KONTRACTS_PROVIDERS_PARSER_FILTER</option>
+			<option value="raw">raw</option>
+			<option value="craigslist">craigslist</option>
+			<option value="kijiji">kijiji</option>
+			<option value="smart">smart</option>
+		</field> 
+
+       <field name="average_rating" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_AVERAGE_RATING"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_AVERAGE_RATING" 
+                
+                
+                
+            filter="float"
+            size="2"
+            maxlength="2" /> 
+
          <field
         name="state"
         type="list"

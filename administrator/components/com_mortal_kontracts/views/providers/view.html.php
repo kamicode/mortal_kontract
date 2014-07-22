@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version     1.0.0
+ * @version     1.0.1
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -118,6 +118,45 @@ class Mortal_kontractsViewProviders extends JViewLegacy {
 
 		);
 
+		//Filter for the field connector
+		$select_label = JText::sprintf('COM_MORTAL_KONTRACTS_FILTER_SELECT_LABEL', 'Connector');
+		$options = array();
+		$options[0] = new stdClass();
+		$options[0]->value = "raw";
+		$options[0]->text = "raw";
+		$options[1] = new stdClass();
+		$options[1]->value = "rss";
+		$options[1]->text = "rss";
+		$options[2] = new stdClass();
+		$options[2]->value = "custom";
+		$options[2]->text = "custom";
+		JHtmlSidebar::addFilter(
+			$select_label,
+			'filter_connector',
+			JHtml::_('select.options', $options , "value", "text", $this->state->get('filter.connector'), true)
+		);
+
+		//Filter for the field parser
+		$select_label = JText::sprintf('COM_MORTAL_KONTRACTS_FILTER_SELECT_LABEL', 'Parser');
+		$options = array();
+		$options[0] = new stdClass();
+		$options[0]->value = "raw";
+		$options[0]->text = "raw";
+		$options[1] = new stdClass();
+		$options[1]->value = "craigslist";
+		$options[1]->text = "craigslist";
+		$options[2] = new stdClass();
+		$options[2]->value = "kijiji";
+		$options[2]->text = "kijiji";
+		$options[3] = new stdClass();
+		$options[3]->value = "smart";
+		$options[3]->text = "smart";
+		JHtmlSidebar::addFilter(
+			$select_label,
+			'filter_parser',
+			JHtml::_('select.options', $options , "value", "text", $this->state->get('filter.parser'), true)
+		);
+
     }
 
 	protected function getSortFields()
@@ -129,6 +168,9 @@ class Mortal_kontractsViewProviders extends JViewLegacy {
 		'a.checked_out' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_CHECKED_OUT'),
 		'a.checked_out_time' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_CHECKED_OUT_TIME'),
 		'a.name' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_NAME'),
+		'a.connector' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR'),
+		'a.parser' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_PARSER'),
+		'a.average_rating' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_AVERAGE_RATING'),
 		);
 	}
 

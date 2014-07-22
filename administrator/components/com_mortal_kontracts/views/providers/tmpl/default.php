@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.0
+ * @version     1.0.1
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -113,6 +113,15 @@ if (!empty($this->extra_sidebar)) {
 				<th class='left'>
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_NAME', 'a.name', $listDirn, $listOrder); ?>
 				</th>
+				<th class='left'>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR', 'a.connector', $listDirn, $listOrder); ?>
+				</th>
+				<th class='left'>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_PARSER', 'a.parser', $listDirn, $listOrder); ?>
+				</th>
+				<th class='left'>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_AVERAGE_RATING', 'a.average_rating', $listDirn, $listOrder); ?>
+				</th>
                     
                     
                 <?php if (isset($this->items[0]->id)): ?>
@@ -186,6 +195,18 @@ if (!empty($this->extra_sidebar)) {
 				<?php else : ?>
 					<?php echo $this->escape($item->name); ?>
 				<?php endif; ?>
+				</td>
+				<td>
+
+					<?php echo $item->connector; ?>
+				</td>
+				<td>
+
+					<?php echo $item->parser; ?>
+				</td>
+				<td>
+
+					<?php echo $item->average_rating; ?>
 				</td>
 
 

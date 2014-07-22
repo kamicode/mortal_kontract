@@ -26,6 +26,9 @@ CREATE TABLE IF NOT EXISTS `#__mortal_kontracts_providers` (
 `checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
 `created_by` INT(11)  NOT NULL ,
 `name` VARCHAR(255)  NOT NULL ,
+`connector` VARCHAR(255)  NOT NULL ,
+`parser` VARCHAR(255)  NOT NULL ,
+`average_rating` VARCHAR(2)  NOT NULL ,
 PRIMARY KEY (`id`)
 ) DEFAULT COLLATE=utf8_general_ci;
 
