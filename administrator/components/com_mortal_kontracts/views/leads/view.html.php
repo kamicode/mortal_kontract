@@ -60,7 +60,7 @@ class Mortal_kontractsViewLeads extends JViewLegacy {
         if (file_exists($formPath)) {
 
             if ($canDo->get('core.create')) {
-                JToolBarHelper::addNew('lead.add', 'JTOOLBAR_NEW');
+                JToolBarHelper::addNew('leads.retrieve', 'IMPORT');
             }
 
             if ($canDo->get('core.edit') && isset($this->items[0])) {

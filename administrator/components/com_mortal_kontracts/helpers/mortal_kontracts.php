@@ -56,4 +56,6 @@ class Mortal_kontractsHelper {
     }
 
 
+
+
 }

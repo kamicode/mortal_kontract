@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5df4fe22-1763-4117-9056-229f87dca534" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/raw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mortal_kontract.iws" />
@@ -27,13 +30,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="provider.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php">
+      <file leaf-file-name="mortal_kontracts.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="4" selection-start="2932" selection-end="2932" vertical-scroll-proportion="0.6655093" vertical-offset="1448" max-vertical-offset="2346">
-              <folding>
-                <marker date="1406066198140" expanded="true" signature="2793:2848" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
-              </folding>
+            <state line="37" column="23" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.5" vertical-offset="176" max-vertical-offset="1037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leads.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="16" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.6018018" vertical-offset="805" max-vertical-offset="1360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.5384616" vertical-offset="40" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lead.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/lead.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="providers.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/providers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.307693" vertical-offset="346" max-vertical-offset="1105">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,34 +78,16 @@
       <file leaf-file-name="providers.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2703">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="96.34615" vertical-offset="2505" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mortal_kontracts.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
+      <file leaf-file-name="raw.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/raw.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="827" selection-end="827" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mortal_kontracts.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_mortal_kontracts/mortal_kontracts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mortal_kontracts.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="3" selection-start="499" selection-end="499" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="493">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -77,10 +96,19 @@
       <file leaf-file-name="lead.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/lead.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2108">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="59.73077" vertical-offset="1553" max-vertical-offset="2108">
               <folding>
-                <marker date="1406058881879" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
+                <marker date="1406066648972" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MKConnector.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="2" selection-start="438" selection-end="438" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +116,7 @@
       <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3604">
+            <state line="176" column="8" selection-start="5936" selection-end="5936" vertical-scroll-proportion="-115.07692" vertical-offset="0" max-vertical-offset="3604">
               <folding />
             </state>
           </provider>
@@ -111,6 +139,10 @@
         <option value="$PROJECT_DIR$/components/com_mortal_kontracts/mortal_kontracts.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
       </list>
     </option>
   </component>
@@ -327,7 +359,145 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_mortal_kontracts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_mortal_kontracts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_mortal_kontracts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connectors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_mortal_kontracts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_mortal_kontracts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,19 +539,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -402,45 +572,24 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php</url>
+          <line>65</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="1" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2210">
           <folding>
-            <marker date="1406066198140" expanded="true" signature="2793:2848" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
+            <marker date="1406066648974" expanded="true" signature="-1:-1" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/lead.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
-          <folding>
-            <marker date="1406058881879" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="827" selection-end="827" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,17 +602,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="499" selection-end="499" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="493">
+        <state line="17" column="1" selection-start="476" selection-end="476" vertical-scroll-proportion="-9.153846" vertical-offset="34" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="4" selection-start="2932" selection-end="2932" vertical-scroll-proportion="0.6655093" vertical-offset="1448" max-vertical-offset="2346">
+        <state line="121" column="0" selection-start="2919" selection-end="2919" vertical-scroll-proportion="-27.346153" vertical-offset="1329" max-vertical-offset="2193">
           <folding>
-            <marker date="1406066198140" expanded="true" signature="2793:2848" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
+            <marker date="1406066648974" expanded="true" signature="-1:-1" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="45" selection-start="1774" selection-end="1774" vertical-scroll-proportion="-11.115385" vertical-offset="663" max-vertical-offset="3485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/lead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="2" selection-start="438" selection-end="438" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/lead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="59.73077" vertical-offset="1553" max-vertical-offset="2108">
+          <folding>
+            <marker date="1406066648972" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.5" vertical-offset="176" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="8" selection-start="5936" selection-end="5936" vertical-scroll-proportion="-115.07692" vertical-offset="0" max-vertical-offset="3604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.5384616" vertical-offset="40" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/providers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.307693" vertical-offset="346" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="96.34615" vertical-offset="2505" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/raw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="16" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.6018018" vertical-offset="805" max-vertical-offset="1360">
+          <folding />
         </state>
       </provider>
     </entry>

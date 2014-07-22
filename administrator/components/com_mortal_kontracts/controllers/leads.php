@@ -61,6 +61,21 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
 		JFactory::getApplication()->close();
 	}
     
-    
+    public function retrieve()
+    {
+        $providers_model = parent::getModel('providers', 'Mortal_kontractsModel', array('ignore_request' => true));
+
+        $providers = $providers_model->getItems();
+
+        if(count($providers) > 0)
+        {
+            foreach($providers as $provider)
+            {
+                
+            }
+        }
+
+        $this->setRedirect(JRoute::_('index.php?option=com_mortal_kontracts&view=leads', false));
+    }
     
 }
