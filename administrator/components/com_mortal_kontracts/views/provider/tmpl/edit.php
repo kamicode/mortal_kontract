@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.1
+ * @version     1.0.2
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -84,6 +84,10 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 			<div class="control-group">
 				<div class="control-label"><?php echo $this->form->getLabel('average_rating'); ?></div>
 				<div class="controls"><?php echo $this->form->getInput('average_rating'); ?></div>
+			</div>
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('url'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('url'); ?></div>
 			</div>
 
 

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version     1.0.1
+ * @version     1.0.2
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -60,7 +60,7 @@ class Mortal_kontractsViewLeads extends JViewLegacy {
         if (file_exists($formPath)) {
 
             if ($canDo->get('core.create')) {
-                JToolBarHelper::addNew('leads.retrieve', 'IMPORT');
+                JToolBarHelper::addNew('leads.retrieve', 'RETRIEVE LEADS');
             }
 
             if ($canDo->get('core.edit') && isset($this->items[0])) {

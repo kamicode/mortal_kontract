@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version     1.0.1
+ * @version     1.0.2
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -171,6 +171,7 @@ class Mortal_kontractsViewProviders extends JViewLegacy {
 		'a.connector' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR'),
 		'a.parser' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_PARSER'),
 		'a.average_rating' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_AVERAGE_RATING'),
+		'a.url' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_URL'),
 		);
 	}
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.1
+ * @version     1.0.2
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -60,7 +60,7 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
 		// Close the application
 		JFactory::getApplication()->close();
 	}
-    
+
     public function retrieve()
     {
         $providers_model = parent::getModel('providers', 'Mortal_kontractsModel', array('ignore_request' => true));
@@ -71,7 +71,7 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
         {
             foreach($providers as $provider)
             {
-                
+
             }
         }
 

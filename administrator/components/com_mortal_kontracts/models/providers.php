@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version     1.0.1
+ * @version     1.0.2
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -34,6 +34,7 @@ class Mortal_kontractsModelProviders extends JModelList {
                 'connector', 'a.connector',
                 'parser', 'a.parser',
                 'average_rating', 'a.average_rating',
+                'url', 'a.url',
 
             );
         }

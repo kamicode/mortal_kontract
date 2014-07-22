@@ -2,11 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5df4fe22-1763-4117-9056-229f87dca534" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/raw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controller.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/controller.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/createdby.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/createdby.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/createdby.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/createdby.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/custom_field.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/custom_field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/providers/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/providers/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/lead/tmpl/edit.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/lead/tmpl/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/provider/tmpl/edit.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/provider/tmpl/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/language/en-GB/en-GB.com_mortal_kontracts.ini" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/language/en-GB/en-GB.com_mortal_kontracts.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_mortal_kontracts.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_mortal_kontracts.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.com_mortal_kontracts.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.com_mortal_kontracts.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/foreignkey.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/foreignkey.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/foreignkey.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/foreignkey.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/sql/install.mysql.utf8.sql" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/sql/install.mysql.utf8.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/lead.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/lead.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/lead.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/lead.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/tables/lead.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/tables/lead.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/assets/css/list.css" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/assets/css/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/mortal_kontracts.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/mortal_kontracts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/helpers/mortal_kontracts.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/helpers/mortal_kontracts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.xml" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/search/mortal_kontracts/mortal_kontracts.xml" afterPath="$PROJECT_DIR$/plugins/search/mortal_kontracts/mortal_kontracts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/provider.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/tables/provider.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/tables/provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/forms/provider.xml" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/forms/provider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/providers.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/providers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/router.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/timecreated.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/timecreated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/timecreated.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/timecreated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/timeupdated.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/fields/timeupdated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/timeupdated.php" afterPath="$PROJECT_DIR$/components/com_mortal_kontracts/models/fields/timeupdated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/lead/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/lead/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/provider/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/provider/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/providers/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/providers/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mortal_kontract.iws" />
@@ -33,16 +70,25 @@
       <file leaf-file-name="mortal_kontracts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.5" vertical-offset="176" max-vertical-offset="1037">
+            <state line="37" column="23" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.5" vertical-offset="261" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leads.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="16" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.6018018" vertical-offset="805" max-vertical-offset="1360">
+            <state line="62" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-9.576923" vertical-offset="703" max-vertical-offset="1360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.html.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="64" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-11.115385" vertical-offset="663" max-vertical-offset="3485">
               <folding />
             </state>
           </provider>
@@ -52,15 +98,6 @@
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.5384616" vertical-offset="40" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lead.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/lead.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -78,7 +115,7 @@
       <file leaf-file-name="providers.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="96.34615" vertical-offset="2505" max-vertical-offset="3060">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="96.34615" vertical-offset="2505" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
@@ -98,16 +135,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="59.73077" vertical-offset="1553" max-vertical-offset="2108">
               <folding>
-                <marker date="1406066648972" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
+                <marker date="1406072805901" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MKConnector.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MKConnector.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="2" selection-start="438" selection-end="438" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+            <state line="23" column="5" selection-start="434" selection-end="434" vertical-scroll-proportion="0.55135137" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -141,8 +178,8 @@
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php" />
-        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
       </list>
     </option>
   </component>
@@ -507,6 +544,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -573,13 +611,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php</url>
-          <line>65</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
@@ -588,7 +619,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="1" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2210">
           <folding>
-            <marker date="1406066648974" expanded="true" signature="-1:-1" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
+            <marker date="1406072805903" expanded="true" signature="-1:-1" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
           </folding>
         </state>
       </provider>
@@ -611,15 +642,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="0" selection-start="2919" selection-end="2919" vertical-scroll-proportion="-27.346153" vertical-offset="1329" max-vertical-offset="2193">
           <folding>
-            <marker date="1406066648974" expanded="true" signature="-1:-1" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
+            <marker date="1406072805903" expanded="true" signature="-1:-1" placeholder="SELECT MAX(o..#__mortal_kontracts_providers..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="45" selection-start="1774" selection-end="1774" vertical-scroll-proportion="-11.115385" vertical-offset="663" max-vertical-offset="3485">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,18 +654,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="2" selection-start="438" selection-end="438" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/lead.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="59.73077" vertical-offset="1553" max-vertical-offset="2108">
           <folding>
-            <marker date="1406066648972" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
+            <marker date="1406072805901" expanded="true" signature="2773:2824" placeholder="SELECT MAX(o..#__mortal_kontracts_leads..." />
           </folding>
         </state>
       </provider>
@@ -690,7 +707,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="16" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.6018018" vertical-offset="805" max-vertical-offset="1360">
+        <state line="62" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-9.576923" vertical-offset="703" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="64" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-11.115385" vertical-offset="663" max-vertical-offset="3485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/connectors/MKConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="434" selection-end="434" vertical-scroll-proportion="0.55135137" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>

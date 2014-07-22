@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.1
+ * @version     1.0.2
  * @package     com_mortal_kontracts
  * @copyright   Copyright (C) 2014. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -122,6 +122,9 @@ if (!empty($this->extra_sidebar)) {
 				<th class='left'>
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_AVERAGE_RATING', 'a.average_rating', $listDirn, $listOrder); ?>
 				</th>
+				<th class='left'>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_URL', 'a.url', $listDirn, $listOrder); ?>
+				</th>
                     
                     
                 <?php if (isset($this->items[0]->id)): ?>
@@ -207,6 +210,10 @@ if (!empty($this->extra_sidebar)) {
 				<td>
 
 					<?php echo $item->average_rating; ?>
+				</td>
+				<td>
+
+					<?php echo $item->url; ?>
 				</td>
 
 

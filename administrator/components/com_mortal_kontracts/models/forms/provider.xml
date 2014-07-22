@@ -72,6 +72,16 @@
             size="2"
             maxlength="2" /> 
 
+       <field name="url" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_URL"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_URL" 
+                
+                
+                 required="true" 
+            filter="url"
+            size="100" /> 
+
          <field
         name="state"
         type="list"
