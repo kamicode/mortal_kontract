@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50527
 File Encoding         : 65001
 
-Date: 2014-07-22 16:03:21
+Date: 2014-07-22 18:05:46
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -539,7 +539,7 @@ INSERT INTO `mk_extensions` VALUES ('32', 'com_postinstall', 'component', 'com_p
 INSERT INTO `mk_extensions` VALUES ('100', 'PHPMailer', 'library', 'phpmailer', '', '0', '1', '1', '1', '{\"name\":\"PHPMailer\",\"type\":\"library\",\"creationDate\":\"2001\",\"author\":\"PHPMailer\",\"copyright\":\"(c) 2001-2003, Brent R. Matzelle, (c) 2004-2009, Andy Prevost. All Rights Reserved., (c) 2010-2013, Jim Jagielski. All Rights Reserved.\",\"authorEmail\":\"jimjag@gmail.com\",\"authorUrl\":\"https:\\/\\/github.com\\/PHPMailer\\/PHPMailer\",\"version\":\"5.2.6\",\"description\":\"LIB_PHPMAILER_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('101', 'SimplePie', 'library', 'simplepie', '', '0', '1', '1', '1', '{\"name\":\"SimplePie\",\"type\":\"library\",\"creationDate\":\"2004\",\"author\":\"SimplePie\",\"copyright\":\"Copyright (c) 2004-2009, Ryan Parman and Geoffrey Sneddon\",\"authorEmail\":\"\",\"authorUrl\":\"http:\\/\\/simplepie.org\\/\",\"version\":\"1.2\",\"description\":\"LIB_SIMPLEPIE_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('102', 'phputf8', 'library', 'phputf8', '', '0', '1', '1', '1', '{\"name\":\"phputf8\",\"type\":\"library\",\"creationDate\":\"2006\",\"author\":\"Harry Fuecks\",\"copyright\":\"Copyright various authors\",\"authorEmail\":\"hfuecks@gmail.com\",\"authorUrl\":\"http:\\/\\/sourceforge.net\\/projects\\/phputf8\",\"version\":\"0.5\",\"description\":\"LIB_PHPUTF8_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
-INSERT INTO `mk_extensions` VALUES ('103', 'Joomla! Platform', 'library', 'joomla', '', '0', '1', '1', '1', '{\"name\":\"Joomla! Platform\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"http:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\"}', '{\"mediaversion\":\"8d1fdf8971c1aee17dc131e795b701c5\"}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
+INSERT INTO `mk_extensions` VALUES ('103', 'Joomla! Platform', 'library', 'joomla', '', '0', '1', '1', '1', '{\"name\":\"Joomla! Platform\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"http:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\"}', '{\"mediaversion\":\"e31d213f5fb1409e2060f539adf79d23\"}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('104', 'IDNA Convert', 'library', 'idna_convert', '', '0', '1', '1', '1', '{\"name\":\"IDNA Convert\",\"type\":\"library\",\"creationDate\":\"2004\",\"author\":\"phlyLabs\",\"copyright\":\"2004-2011 phlyLabs Berlin, http:\\/\\/phlylabs.de\",\"authorEmail\":\"phlymail@phlylabs.de\",\"authorUrl\":\"http:\\/\\/phlylabs.de\",\"version\":\"0.8.0\",\"description\":\"LIB_IDNA_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('105', 'FOF', 'library', 'fof', '', '0', '1', '1', '1', '{\"name\":\"FOF\",\"type\":\"library\",\"creationDate\":\"2014-03-09 12:54:48\",\"author\":\"Nicholas K. Dionysopoulos \\/ Akeeba Ltd\",\"copyright\":\"(C)2011-2014 Nicholas K. Dionysopoulos\",\"authorEmail\":\"nicholas@akeebabackup.com\",\"authorUrl\":\"https:\\/\\/www.akeebabackup.com\",\"version\":\"2.2.1\",\"description\":\"LIB_FOF_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('106', 'PHPass', 'library', 'phpass', '', '0', '1', '1', '1', '{\"name\":\"PHPass\",\"type\":\"library\",\"creationDate\":\"2004-2006\",\"author\":\"Solar Designer\",\"copyright\":\"\",\"authorEmail\":\"solar@openwall.com\",\"authorUrl\":\"http:\\/\\/www.openwall.com\\/phpass\\/\",\"version\":\"0.3\",\"description\":\"LIB_PHPASS_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
@@ -642,8 +642,8 @@ INSERT INTO `mk_extensions` VALUES ('507', 'isis', 'template', 'isis', '', '1', 
 INSERT INTO `mk_extensions` VALUES ('600', 'English (United Kingdom)', 'language', 'en-GB', '', '0', '1', '1', '1', '{\"name\":\"English (United Kingdom)\",\"type\":\"language\",\"creationDate\":\"2013-03-07\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.3.1\",\"description\":\"en-GB site language\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('601', 'English (United Kingdom)', 'language', 'en-GB', '', '1', '1', '1', '1', '{\"name\":\"English (United Kingdom)\",\"type\":\"language\",\"creationDate\":\"2013-03-07\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.3.1\",\"description\":\"en-GB administrator language\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('700', 'files_joomla', 'file', 'joomla', '', '0', '1', '1', '1', '{\"name\":\"files_joomla\",\"type\":\"file\",\"creationDate\":\"June 2014\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2014 Open Source Matters. All rights reserved\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.3.1\",\"description\":\"FILES_JOOMLA_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
-INSERT INTO `mk_extensions` VALUES ('10000', 'plg_search_mortal_kontracts', 'plugin', 'mortal_kontracts', 'search', '0', '1', '1', '0', '{\"name\":\"plg_search_mortal_kontracts\",\"type\":\"plugin\",\"creationDate\":\"2014-07-22\",\"author\":\"Jacques Langlois\",\"copyright\":\"Copyright (C) 2014. All rights reserved.\",\"authorEmail\":\"j@kamicode.com\",\"authorUrl\":\"kamicode.com\",\"version\":\"1.0.0\",\"description\":\"PLG_SEARCH_COM_MORTAL_KONTRACTS_XML_DESCRIPTION\",\"group\":\"\"}', '{\"search_limit\":\"50\"}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
-INSERT INTO `mk_extensions` VALUES ('10001', 'com_mortal_kontracts', 'component', 'com_mortal_kontracts', '', '1', '1', '0', '0', '{\"name\":\"com_mortal_kontracts\",\"type\":\"component\",\"creationDate\":\"2014-07-22\",\"author\":\"Jacques Langlois\",\"copyright\":\"Copyright (C) 2014. All rights reserved.\",\"authorEmail\":\"j@kamicode.com\",\"authorUrl\":\"kamicode.com\",\"version\":\"1.0.0\",\"description\":\"\",\"group\":\"\"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
+INSERT INTO `mk_extensions` VALUES ('10000', 'plg_search_mortal_kontracts', 'plugin', 'mortal_kontracts', 'search', '0', '1', '1', '0', '{\"name\":\"plg_search_mortal_kontracts\",\"type\":\"plugin\",\"creationDate\":\"2014-07-22\",\"author\":\"Jacques Langlois\",\"copyright\":\"Copyright (C) 2014. All rights reserved.\",\"authorEmail\":\"j@kamicode.com\",\"authorUrl\":\"kamicode.com\",\"version\":\"1.0.1\",\"description\":\"PLG_SEARCH_COM_MORTAL_KONTRACTS_XML_DESCRIPTION\",\"group\":\"\"}', '{\"search_limit\":\"50\"}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
+INSERT INTO `mk_extensions` VALUES ('10001', 'com_mortal_kontracts', 'component', 'com_mortal_kontracts', '', '1', '1', '0', '0', '{\"name\":\"com_mortal_kontracts\",\"type\":\"component\",\"creationDate\":\"2014-07-22\",\"author\":\"Jacques Langlois\",\"copyright\":\"Copyright (C) 2014. All rights reserved.\",\"authorEmail\":\"j@kamicode.com\",\"authorUrl\":\"kamicode.com\",\"version\":\"1.0.1\",\"description\":\"\",\"group\":\"\"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 
 -- ----------------------------
 -- Table structure for `mk_finder_filters`
@@ -1303,7 +1303,7 @@ CREATE TABLE `mk_menu` (
   KEY `idx_alias` (`alias`),
   KEY `idx_path` (`path`(255)),
   KEY `idx_language` (`language`)
-) ENGINE=InnoDB AUTO_INCREMENT=105 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=108 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of mk_menu
@@ -1333,9 +1333,9 @@ INSERT INTO `mk_menu` VALUES ('22', 'menu', 'com_joomlaupdate', 'Joomla! Update'
 INSERT INTO `mk_menu` VALUES ('23', 'main', 'com_tags', 'Tags', '', 'Tags', 'index.php?option=com_tags', 'component', '0', '1', '1', '29', '0', '0000-00-00 00:00:00', '0', '1', 'class:tags', '0', '', '43', '44', '0', '', '1');
 INSERT INTO `mk_menu` VALUES ('24', 'main', 'com_postinstall', 'Post-installation messages', '', 'Post-installation messages', 'index.php?option=com_postinstall', 'component', '0', '1', '1', '32', '0', '0000-00-00 00:00:00', '0', '1', 'class:postinstall', '0', '', '45', '46', '0', '*', '1');
 INSERT INTO `mk_menu` VALUES ('101', 'mainmenu', 'Home', 'home', '', 'home', 'index.php?option=com_content&view=featured', 'component', '1', '1', '1', '22', '0', '0000-00-00 00:00:00', '0', '1', '', '0', '{\"featured_categories\":[\"\"],\"layout_type\":\"blog\",\"num_leading_articles\":\"1\",\"num_intro_articles\":\"3\",\"num_columns\":\"3\",\"num_links\":\"0\",\"multi_column_order\":\"1\",\"orderby_pri\":\"\",\"orderby_sec\":\"front\",\"order_date\":\"\",\"show_pagination\":\"2\",\"show_pagination_results\":\"1\",\"show_title\":\"\",\"link_titles\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_vote\":\"\",\"show_readmore\":\"\",\"show_readmore_title\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"show_feed_link\":\"1\",\"feed_summary\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_text\":1,\"page_title\":\"\",\"show_page_heading\":1,\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', '47', '48', '1', '*', '0');
-INSERT INTO `mk_menu` VALUES ('102', 'main', 'COM_MORTAL_KONTRACTS', 'com-mortal-kontracts', '', 'com-mortal-kontracts', 'index.php?option=com_mortal_kontracts', 'component', '0', '1', '1', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_com_mortal_kontracts.png', '0', '', '49', '54', '0', '', '1');
-INSERT INTO `mk_menu` VALUES ('103', 'main', 'COM_MORTAL_KONTRACTS_TITLE_LEADS', 'com-mortal-kontracts-title-leads', '', 'com-mortal-kontracts/com-mortal-kontracts-title-leads', 'index.php?option=com_mortal_kontracts&view=leads', 'component', '0', '102', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_leads.png', '0', '', '50', '51', '0', '', '1');
-INSERT INTO `mk_menu` VALUES ('104', 'main', 'COM_MORTAL_KONTRACTS_TITLE_PROVIDERS', 'com-mortal-kontracts-title-providers', '', 'com-mortal-kontracts/com-mortal-kontracts-title-providers', 'index.php?option=com_mortal_kontracts&view=providers', 'component', '0', '102', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_providers.png', '0', '', '52', '53', '0', '', '1');
+INSERT INTO `mk_menu` VALUES ('105', 'main', 'COM_MORTAL_KONTRACTS', 'com-mortal-kontracts', '', 'com-mortal-kontracts', 'index.php?option=com_mortal_kontracts', 'component', '0', '1', '1', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_com_mortal_kontracts.png', '0', '', '49', '54', '0', '', '1');
+INSERT INTO `mk_menu` VALUES ('106', 'main', 'COM_MORTAL_KONTRACTS_TITLE_LEADS', 'com-mortal-kontracts-title-leads', '', 'com-mortal-kontracts/com-mortal-kontracts-title-leads', 'index.php?option=com_mortal_kontracts&view=leads', 'component', '0', '105', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_leads.png', '0', '', '50', '51', '0', '', '1');
+INSERT INTO `mk_menu` VALUES ('107', 'main', 'COM_MORTAL_KONTRACTS_TITLE_PROVIDERS', 'com-mortal-kontracts-title-providers', '', 'com-mortal-kontracts/com-mortal-kontracts-title-providers', 'index.php?option=com_mortal_kontracts&view=providers', 'component', '0', '105', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_providers.png', '0', '', '52', '53', '0', '', '1');
 
 -- ----------------------------
 -- Table structure for `mk_menu_types`
@@ -1509,6 +1509,9 @@ CREATE TABLE `mk_mortal_kontracts_providers` (
   `checked_out_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `created_by` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
+  `connector` varchar(255) NOT NULL,
+  `parser` varchar(255) NOT NULL,
+  `average_rating` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -1669,7 +1672,7 @@ CREATE TABLE `mk_session` (
 -- ----------------------------
 -- Records of mk_session
 -- ----------------------------
-INSERT INTO `mk_session` VALUES ('d9b2jtc1sepb1vddovo7k19gn1', '1', '0', '1406058975', '__default|a:8:{s:15:\"session.counter\";i:10;s:19:\"session.timer.start\";i:1406058757;s:18:\"session.timer.last\";i:1406058884;s:17:\"session.timer.now\";i:1406058975;s:22:\"session.client.browser\";s:109:\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36\";s:8:\"registry\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":2:{s:11:\"application\";O:8:\"stdClass\":1:{s:4:\"lang\";s:5:\"en-GB\";}s:13:\"com_installer\";O:8:\"stdClass\":3:{s:7:\"message\";s:0:\"\";s:17:\"extension_message\";s:0:\"\";s:12:\"redirect_url\";N;}}}s:4:\"user\";O:5:\"JUser\":27:{s:9:\"\\0\\0\\0isRoot\";b:1;s:2:\"id\";s:1:\"6\";s:4:\"name\";s:10:\"Super User\";s:8:\"username\";s:8:\"kamicode\";s:5:\"email\";s:14:\"j@kamicode.com\";s:8:\"password\";s:60:\"$2y$10$7.OZmgH/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL/KRGeBuRPwXV7u\";s:14:\"password_clear\";s:0:\"\";s:5:\"block\";s:1:\"0\";s:9:\"sendEmail\";s:1:\"1\";s:12:\"registerDate\";s:19:\"2014-07-22 19:52:21\";s:13:\"lastvisitDate\";s:19:\"0000-00-00 00:00:00\";s:10:\"activation\";s:1:\"0\";s:6:\"params\";s:0:\"\";s:6:\"groups\";a:1:{i:8;s:1:\"8\";}s:5:\"guest\";i:0;s:13:\"lastResetTime\";s:19:\"0000-00-00 00:00:00\";s:10:\"resetCount\";s:1:\"0\";s:12:\"requireReset\";s:1:\"0\";s:10:\"\\0\\0\\0_params\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":0:{}}s:14:\"\\0\\0\\0_authGroups\";a:2:{i:0;i:1;i:1;i:8;}s:14:\"\\0\\0\\0_authLevels\";a:5:{i:0;i:1;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:6;}s:15:\"\\0\\0\\0_authActions\";N;s:12:\"\\0\\0\\0_errorMsg\";N;s:10:\"\\0\\0\\0_errors\";a:0:{}s:3:\"aid\";i:0;s:6:\"otpKey\";s:0:\"\";s:4:\"otep\";s:0:\"\";}s:13:\"session.token\";s:32:\"64a95639fda63a1263e94700cb3f1c75\";}', '6', 'kamicode');
+INSERT INTO `mk_session` VALUES ('d9b2jtc1sepb1vddovo7k19gn1', '1', '0', '1406066651', '__default|a:8:{s:15:\"session.counter\";i:9;s:19:\"session.timer.start\";i:1406066610;s:18:\"session.timer.last\";i:1406066648;s:17:\"session.timer.now\";i:1406066651;s:22:\"session.client.browser\";s:109:\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36\";s:8:\"registry\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":3:{s:11:\"application\";O:8:\"stdClass\":1:{s:4:\"lang\";s:5:\"en-GB\";}s:13:\"com_installer\";O:8:\"stdClass\":3:{s:7:\"message\";s:0:\"\";s:17:\"extension_message\";s:0:\"\";s:12:\"redirect_url\";N;}s:11:\"com_modules\";O:8:\"stdClass\":1:{s:7:\"modules\";O:8:\"stdClass\":1:{s:6:\"filter\";O:8:\"stdClass\":1:{s:18:\"client_id_previous\";i:0;}}}}}s:4:\"user\";O:5:\"JUser\":27:{s:9:\"\\0\\0\\0isRoot\";b:1;s:2:\"id\";s:1:\"6\";s:4:\"name\";s:10:\"Super User\";s:8:\"username\";s:8:\"kamicode\";s:5:\"email\";s:14:\"j@kamicode.com\";s:8:\"password\";s:60:\"$2y$10$7.OZmgH/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL/KRGeBuRPwXV7u\";s:14:\"password_clear\";s:0:\"\";s:5:\"block\";s:1:\"0\";s:9:\"sendEmail\";s:1:\"1\";s:12:\"registerDate\";s:19:\"2014-07-22 19:52:21\";s:13:\"lastvisitDate\";s:19:\"2014-07-22 19:52:45\";s:10:\"activation\";s:1:\"0\";s:6:\"params\";s:0:\"\";s:6:\"groups\";a:1:{i:8;s:1:\"8\";}s:5:\"guest\";i:0;s:13:\"lastResetTime\";s:19:\"0000-00-00 00:00:00\";s:10:\"resetCount\";s:1:\"0\";s:12:\"requireReset\";s:1:\"0\";s:10:\"\\0\\0\\0_params\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":0:{}}s:14:\"\\0\\0\\0_authGroups\";a:2:{i:0;i:1;i:1;i:8;}s:14:\"\\0\\0\\0_authLevels\";a:5:{i:0;i:1;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:6;}s:15:\"\\0\\0\\0_authActions\";N;s:12:\"\\0\\0\\0_errorMsg\";N;s:10:\"\\0\\0\\0_errors\";a:0:{}s:3:\"aid\";i:0;s:6:\"otpKey\";s:0:\"\";s:4:\"otep\";s:0:\"\";}s:13:\"session.token\";s:32:\"2a5123da7cd7580ed5c2c486f9ddf746\";}', '6', 'kamicode');
 
 -- ----------------------------
 -- Table structure for `mk_tags`
@@ -1869,60 +1872,60 @@ CREATE TABLE `mk_updates` (
 -- ----------------------------
 -- Records of mk_updates
 -- ----------------------------
-INSERT INTO `mk_updates` VALUES ('1', '3', '0', 'Korean', '', 'pkg_ko-KR', 'package', '', '0', '3.2.3.1', '', 'http://update.joomla.org/language/details3/ko-KR_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('2', '3', '0', 'Latvian', '', 'pkg_lv-LV', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/lv-LV_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('3', '3', '0', 'Macedonian', '', 'pkg_mk-MK', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/mk-MK_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('4', '3', '0', 'Norwegian Bokmal', '', 'pkg_nb-NO', 'package', '', '0', '3.2.2.1', '', 'http://update.joomla.org/language/details3/nb-NO_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('5', '3', '0', 'Persian', '', 'pkg_fa-IR', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/fa-IR_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('6', '3', '0', 'Polish', '', 'pkg_pl-PL', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/pl-PL_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('7', '3', '0', 'Russian', '', 'pkg_ru-RU', 'package', '', '0', '3.3.1.3', '', 'http://update.joomla.org/language/details3/ru-RU_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('8', '3', '0', 'Slovak', '', 'pkg_sk-SK', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sk-SK_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('9', '3', '0', 'Swedish', '', 'pkg_sv-SE', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/sv-SE_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('10', '3', '0', 'Syriac', '', 'pkg_sy-IQ', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sy-IQ_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('11', '3', '0', 'Malay', '', 'pkg_ms-MY', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ms-MY_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('12', '3', '0', 'Tamil', '', 'pkg_ta-IN', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ta-IN_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('13', '3', '0', 'Romanian', '', 'pkg_ro-RO', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/ro-RO_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('14', '3', '0', 'Thai', '', 'pkg_th-TH', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/th-TH_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('15', '3', '0', 'Flemish', '', 'pkg_nl-BE', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/nl-BE_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('16', '3', '0', 'Turkish', '', 'pkg_tr-TR', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/tr-TR_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('17', '3', '0', 'Chinese Traditional', '', 'pkg_zh-TW', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/zh-TW_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('18', '3', '0', 'Ukrainian', '', 'pkg_uk-UA', 'package', '', '0', '3.3.1.11', '', 'http://update.joomla.org/language/details3/uk-UA_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('19', '3', '0', 'French', '', 'pkg_fr-FR', 'package', '', '0', '3.3.1.3', '', 'http://update.joomla.org/language/details3/fr-FR_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('20', '3', '0', 'Uyghur', '', 'pkg_ug-CN', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/ug-CN_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('21', '3', '0', 'Galician', '', 'pkg_gl-ES', 'package', '', '0', '3.3.1.2', '', 'http://update.joomla.org/language/details3/gl-ES_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('22', '3', '0', 'Albanian', '', 'pkg_sq-AL', 'package', '', '0', '3.1.1.1', '', 'http://update.joomla.org/language/details3/sq-AL_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('23', '3', '0', 'German', '', 'pkg_de-DE', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/de-DE_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('24', '3', '0', 'Portuguese Brazil', '', 'pkg_pt-BR', 'package', '', '0', '3.0.2.1', '', 'http://update.joomla.org/language/details3/pt-BR_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('25', '3', '0', 'Greek', '', 'pkg_el-GR', 'package', '', '0', '3.2.0.1', '', 'http://update.joomla.org/language/details3/el-GR_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('26', '3', '0', 'Serbian Latin', '', 'pkg_sr-YU', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sr-YU_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('27', '3', '0', 'Japanese', '', 'pkg_ja-JP', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ja-JP_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('28', '3', '0', 'Spanish', '', 'pkg_es-ES', 'package', '', '0', '3.3.1.3', '', 'http://update.joomla.org/language/details3/es-ES_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('29', '3', '0', 'Hebrew', '', 'pkg_he-IL', 'package', '', '0', '3.1.1.1', '', 'http://update.joomla.org/language/details3/he-IL_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('30', '3', '0', 'Bosnian', '', 'pkg_bs-BA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/bs-BA_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('31', '3', '0', 'EnglishAU', '', 'pkg_en-AU', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/en-AU_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('32', '3', '0', 'Serbian Cyrillic', '', 'pkg_sr-RS', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sr-RS_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('33', '3', '0', 'EnglishUS', '', 'pkg_en-US', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/en-US_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('34', '3', '0', 'Vietnamese', '', 'pkg_vi-VN', 'package', '', '0', '3.2.1.1', '', 'http://update.joomla.org/language/details3/vi-VN_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('35', '3', '0', 'Hungarian', '', 'pkg_hu-HU', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/hu-HU_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('36', '3', '0', 'Bahasa Indonesia', '', 'pkg_id-ID', 'package', '', '0', '3.3.0.2', '', 'http://update.joomla.org/language/details3/id-ID_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('37', '3', '0', 'Afrikaans', '', 'pkg_af-ZA', 'package', '', '0', '3.2.0.1', '', 'http://update.joomla.org/language/details3/af-ZA_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('38', '3', '0', 'Finnish', '', 'pkg_fi-FI', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/fi-FI_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('39', '3', '0', 'Arabic Unitag', '', 'pkg_ar-AA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ar-AA_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('40', '3', '0', 'Swahili', '', 'pkg_sw-KE', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sw-KE_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('41', '3', '0', 'Belarusian', '', 'pkg_be-BY', 'package', '', '0', '3.2.1.1', '', 'http://update.joomla.org/language/details3/be-BY_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('42', '3', '0', 'Montenegrin', '', 'pkg_srp-ME', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/srp-ME_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('43', '3', '0', 'Bulgarian', '', 'pkg_bg-BG', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/bg-BG_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('44', '3', '0', 'EnglishCA', '', 'pkg_en-CA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/en-CA_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('45', '3', '0', 'Catalan', '', 'pkg_ca-ES', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ca-ES_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('46', '3', '0', 'FrenchCA', '', 'pkg_fr-CA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/fr-CA_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('47', '3', '0', 'Chinese Simplified', '', 'pkg_zh-CN', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/zh-CN_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('48', '3', '0', 'Welsh', '', 'pkg_cy-GB', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/cy-GB_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('49', '3', '0', 'Croatian', '', 'pkg_hr-HR', 'package', '', '0', '3.1.5.1', '', 'http://update.joomla.org/language/details3/hr-HR_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('50', '3', '0', 'Czech', '', 'pkg_cs-CZ', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/cs-CZ_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('51', '3', '0', 'Danish', '', 'pkg_da-DK', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/da-DK_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('52', '3', '0', 'Dutch', '', 'pkg_nl-NL', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/nl-NL_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('53', '3', '0', 'Estonian', '', 'pkg_et-EE', 'package', '', '0', '3.3.1.2', '', 'http://update.joomla.org/language/details3/et-EE_details.xml', '', '');
-INSERT INTO `mk_updates` VALUES ('54', '3', '0', 'Italian', '', 'pkg_it-IT', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/it-IT_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('1', '3', '0', 'Russian', '', 'pkg_ru-RU', 'package', '', '0', '3.3.1.3', '', 'http://update.joomla.org/language/details3/ru-RU_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('2', '3', '0', 'Slovak', '', 'pkg_sk-SK', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sk-SK_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('3', '3', '0', 'Swedish', '', 'pkg_sv-SE', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/sv-SE_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('4', '3', '0', 'Syriac', '', 'pkg_sy-IQ', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sy-IQ_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('5', '3', '0', 'Tamil', '', 'pkg_ta-IN', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ta-IN_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('6', '3', '0', 'Thai', '', 'pkg_th-TH', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/th-TH_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('7', '3', '0', 'Turkish', '', 'pkg_tr-TR', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/tr-TR_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('8', '3', '0', 'Ukrainian', '', 'pkg_uk-UA', 'package', '', '0', '3.3.1.11', '', 'http://update.joomla.org/language/details3/uk-UA_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('9', '3', '0', 'Malay', '', 'pkg_ms-MY', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ms-MY_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('10', '3', '0', 'Uyghur', '', 'pkg_ug-CN', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/ug-CN_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('11', '3', '0', 'Romanian', '', 'pkg_ro-RO', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/ro-RO_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('12', '3', '0', 'Albanian', '', 'pkg_sq-AL', 'package', '', '0', '3.1.1.1', '', 'http://update.joomla.org/language/details3/sq-AL_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('13', '3', '0', 'Flemish', '', 'pkg_nl-BE', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/nl-BE_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('14', '3', '0', 'Portuguese Brazil', '', 'pkg_pt-BR', 'package', '', '0', '3.0.2.1', '', 'http://update.joomla.org/language/details3/pt-BR_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('15', '3', '0', 'Chinese Traditional', '', 'pkg_zh-TW', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/zh-TW_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('16', '3', '0', 'Serbian Latin', '', 'pkg_sr-YU', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sr-YU_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('17', '3', '0', 'French', '', 'pkg_fr-FR', 'package', '', '0', '3.3.1.3', '', 'http://update.joomla.org/language/details3/fr-FR_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('18', '3', '0', 'Spanish', '', 'pkg_es-ES', 'package', '', '0', '3.3.1.3', '', 'http://update.joomla.org/language/details3/es-ES_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('19', '3', '0', 'Galician', '', 'pkg_gl-ES', 'package', '', '0', '3.3.1.2', '', 'http://update.joomla.org/language/details3/gl-ES_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('20', '3', '0', 'Bosnian', '', 'pkg_bs-BA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/bs-BA_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('21', '3', '0', 'German', '', 'pkg_de-DE', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/de-DE_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('22', '3', '0', 'Serbian Cyrillic', '', 'pkg_sr-RS', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sr-RS_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('23', '3', '0', 'Greek', '', 'pkg_el-GR', 'package', '', '0', '3.2.0.1', '', 'http://update.joomla.org/language/details3/el-GR_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('24', '3', '0', 'Vietnamese', '', 'pkg_vi-VN', 'package', '', '0', '3.2.1.1', '', 'http://update.joomla.org/language/details3/vi-VN_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('25', '3', '0', 'Japanese', '', 'pkg_ja-JP', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ja-JP_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('26', '3', '0', 'Bahasa Indonesia', '', 'pkg_id-ID', 'package', '', '0', '3.3.0.2', '', 'http://update.joomla.org/language/details3/id-ID_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('27', '3', '0', 'Hebrew', '', 'pkg_he-IL', 'package', '', '0', '3.1.1.1', '', 'http://update.joomla.org/language/details3/he-IL_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('28', '3', '0', 'Finnish', '', 'pkg_fi-FI', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/fi-FI_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('29', '3', '0', 'EnglishAU', '', 'pkg_en-AU', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/en-AU_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('30', '3', '0', 'Swahili', '', 'pkg_sw-KE', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/sw-KE_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('31', '3', '0', 'EnglishUS', '', 'pkg_en-US', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/en-US_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('32', '3', '0', 'Montenegrin', '', 'pkg_srp-ME', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/srp-ME_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('33', '3', '0', 'Hungarian', '', 'pkg_hu-HU', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/hu-HU_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('34', '3', '0', 'EnglishCA', '', 'pkg_en-CA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/en-CA_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('35', '3', '0', 'Afrikaans', '', 'pkg_af-ZA', 'package', '', '0', '3.2.0.1', '', 'http://update.joomla.org/language/details3/af-ZA_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('36', '3', '0', 'FrenchCA', '', 'pkg_fr-CA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/fr-CA_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('37', '3', '0', 'Arabic Unitag', '', 'pkg_ar-AA', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ar-AA_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('38', '3', '0', 'Welsh', '', 'pkg_cy-GB', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/cy-GB_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('39', '3', '0', 'Belarusian', '', 'pkg_be-BY', 'package', '', '0', '3.2.1.1', '', 'http://update.joomla.org/language/details3/be-BY_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('40', '3', '0', 'Bulgarian', '', 'pkg_bg-BG', 'package', '', '0', '3.3.0.1', '', 'http://update.joomla.org/language/details3/bg-BG_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('41', '3', '0', 'Catalan', '', 'pkg_ca-ES', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/ca-ES_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('42', '3', '0', 'Chinese Simplified', '', 'pkg_zh-CN', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/zh-CN_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('43', '3', '0', 'Croatian', '', 'pkg_hr-HR', 'package', '', '0', '3.1.5.1', '', 'http://update.joomla.org/language/details3/hr-HR_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('44', '3', '0', 'Czech', '', 'pkg_cs-CZ', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/cs-CZ_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('45', '3', '0', 'Danish', '', 'pkg_da-DK', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/da-DK_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('46', '3', '0', 'Dutch', '', 'pkg_nl-NL', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/nl-NL_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('47', '3', '0', 'Estonian', '', 'pkg_et-EE', 'package', '', '0', '3.3.1.2', '', 'http://update.joomla.org/language/details3/et-EE_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('48', '3', '0', 'Italian', '', 'pkg_it-IT', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/it-IT_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('49', '3', '0', 'Korean', '', 'pkg_ko-KR', 'package', '', '0', '3.2.3.1', '', 'http://update.joomla.org/language/details3/ko-KR_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('50', '3', '0', 'Latvian', '', 'pkg_lv-LV', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/lv-LV_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('51', '3', '0', 'Macedonian', '', 'pkg_mk-MK', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/mk-MK_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('52', '3', '0', 'Norwegian Bokmal', '', 'pkg_nb-NO', 'package', '', '0', '3.2.2.1', '', 'http://update.joomla.org/language/details3/nb-NO_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('53', '3', '0', 'Persian', '', 'pkg_fa-IR', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/fa-IR_details.xml', '', '');
+INSERT INTO `mk_updates` VALUES ('54', '3', '0', 'Polish', '', 'pkg_pl-PL', 'package', '', '0', '3.3.1.1', '', 'http://update.joomla.org/language/details3/pl-PL_details.xml', '', '');
 
 -- ----------------------------
 -- Table structure for `mk_update_sites`
@@ -1942,9 +1945,9 @@ CREATE TABLE `mk_update_sites` (
 -- ----------------------------
 -- Records of mk_update_sites
 -- ----------------------------
-INSERT INTO `mk_update_sites` VALUES ('1', 'Joomla Core', 'collection', 'http://update.joomla.org/core/list.xml', '1', '1406058769', '');
-INSERT INTO `mk_update_sites` VALUES ('2', 'Joomla Extension Directory', 'collection', 'http://update.joomla.org/jed/list.xml', '1', '1406058769', '');
-INSERT INTO `mk_update_sites` VALUES ('3', 'Accredited Joomla! Translations', 'collection', 'http://update.joomla.org/language/translationlist_3.xml', '1', '1406058769', '');
+INSERT INTO `mk_update_sites` VALUES ('1', 'Joomla Core', 'collection', 'http://update.joomla.org/core/list.xml', '1', '1406066616', '');
+INSERT INTO `mk_update_sites` VALUES ('2', 'Joomla Extension Directory', 'collection', 'http://update.joomla.org/jed/list.xml', '1', '1406066616', '');
+INSERT INTO `mk_update_sites` VALUES ('3', 'Accredited Joomla! Translations', 'collection', 'http://update.joomla.org/language/translationlist_3.xml', '1', '1406066616', '');
 
 -- ----------------------------
 -- Table structure for `mk_update_sites_extensions`
@@ -2024,7 +2027,7 @@ CREATE TABLE `mk_users` (
 -- ----------------------------
 -- Records of mk_users
 -- ----------------------------
-INSERT INTO `mk_users` VALUES ('6', 'Super User', 'kamicode', 'j@kamicode.com', '$2y$10$7.OZmgH/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL/KRGeBuRPwXV7u', '0', '1', '2014-07-22 19:52:21', '2014-07-22 19:52:45', '0', '', '0000-00-00 00:00:00', '0', '', '', '0');
+INSERT INTO `mk_users` VALUES ('6', 'Super User', 'kamicode', 'j@kamicode.com', '$2y$10$7.OZmgH/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL/KRGeBuRPwXV7u', '0', '1', '2014-07-22 19:52:21', '2014-07-22 22:03:32', '0', '', '0000-00-00 00:00:00', '0', '', '', '0');
 
 -- ----------------------------
 -- Table structure for `mk_user_keys`
