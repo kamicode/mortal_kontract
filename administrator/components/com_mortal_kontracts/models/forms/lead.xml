@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_CREATED_BY"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_CREATED_BY"  /> 
+
+       <field name="name" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_NAME"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_NAME" 
+                
+                
+                 required="true"  /> 
+
+       <field name="description" type="textarea"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_DESCRIPTION"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_DESCRIPTION" 
+                
+                
+                 required="true" 
+            cols="100"
+            rows="8" /> 
+
+       <field name="url" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_URL"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_URL" 
+                
+                
+                 required="true" 
+            filter="url" /> 
+
+       <field name="checksum" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_CHECKSUM"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_CHECKSUM" 
+                
+                
+                 required="true" 
+            readonly="true"
+            filter="raw" /> 
+
+       <field name="hits" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_HITS"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_HITS" 
+                
+                
+                
+            readonly="true"
+            filter="int" /> 
+
+ <field name="provider_id" type="foreignkey" class="inputbox"
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_PROVIDER_ID"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_PROVIDER_ID" input_type="list" table="#__mortal_kontracts_providers" key_field="id" value_field="name"  required="true"  /> 
+
+       <field name="filter_provider_id" type="sql" class="inputbox"
+            onchange="this.form.submit();"
+            query="SELECT 0 AS `id`, '- Please select provider_id -' AS `val` UNION SELECT `id`, `name` AS val FROM `#__mortal_kontracts_providers`" key_field="id" value_field="val"
+             /> 
+
+       <field name="region" type="list"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_REGION"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_REGION" 
+                
+                
+                
+            multiple="false">
+                <option value="canada">canada</option>
+                <option value="quebec">quebec</option>
+                <option value="US">US</option>
+                <option value="EU">Europe</option>
+                <option value="Other">other</option>
+        </field> 
+
+ 
+		<field name="filter_region" type="list" onchange="this.form.submit();">
+			<option value="">COM_MORTAL_KONTRACTS_LEADS_REGION_FILTER</option>
+			<option value="canada">canada</option>
+			<option value="quebec">quebec</option>
+			<option value="US">US</option>
+			<option value="EU">Europe</option>
+			<option value="Other">other</option>
+		</field> 
+
+       <field name="accepted_for_quote" type="checkbox"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_ACCEPTED_FOR_QUOTE"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_ACCEPTED_FOR_QUOTE" 
+                
+                
+                
+            menu_published="0"
+            filter="raw" /> 
+
+       <field name="rating" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_RATING"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_RATING" 
+                
+                
+                
+            filter="int"
+            size="1"
+            maxlength="1" /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

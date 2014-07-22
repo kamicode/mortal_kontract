@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_mortal_kontracts</name>
+    <creationDate>2014-07-22</creationDate>
+    <copyright>Copyright (C) 2014. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Jacques Langlois</author>
+    <authorEmail>j@kamicode.com</authorEmail>
+    <authorUrl>kamicode.com</authorUrl>
+    <version>1.0.0</version>
+    <description></description>
+    
+    <scriptfile>script.php</scriptfile>
+    
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>mortal_kontracts.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>assets</folder>
+    </files>
+    <languages folder="site">
+        
+			<language tag="en-GB">language/en-GB/en-GB.com_mortal_kontracts.ini</language>
+    </languages>
+    <administration>
+        <menu img="components/com_mortal_kontracts/assets/images/s_com_mortal_kontracts.png" >COM_MORTAL_KONTRACTS</menu>
+        <submenu>
+            
+			<menu link="option=com_mortal_kontracts&amp;view=leads" view="leads" img="components/com_mortal_kontracts/assets/images/s_leads.png" alt="Mortal_kontracts/Leads">COM_MORTAL_KONTRACTS_TITLE_LEADS</menu>
+
+			<menu link="option=com_mortal_kontracts&amp;view=providers" view="providers" img="components/com_mortal_kontracts/assets/images/s_providers.png" alt="Mortal_kontracts/Providers">COM_MORTAL_KONTRACTS_TITLE_PROVIDERS</menu>
+
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>mortal_kontracts.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <folder>language</folder>
+        </files>
+        <languages folder="administrator">
+            
+			<language tag="en-GB">language/en-GB/en-GB.com_mortal_kontracts.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_mortal_kontracts.sys.ini</language>
+        </languages>
+    </administration>
+    <plugins>
+        <plugin group="search" plugin="mortal_kontracts"/>
+    </plugins>
+    
+</extension>
+<!-- Component built by the Joomla Component Creator -->
+<!-- http://www.component-creator.com/ -->
