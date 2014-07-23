@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 
 jimport('joomla.application.component.modellist');
 
-JLoader::register('simplepie', JPATH_LIBRARIES . '/simplepie/simplepie.php');
+require_once JPATH_COMPONENT_ADMINISTRATOR . '/helpers/autoloader.php';
 
 /**
  * Methods supporting a list of Mortal_kontracts records.
@@ -174,27 +174,4 @@ class Mortal_kontractsModelProviders extends JModelList {
         return $items;
     }
 
-
-    public static function connect($url)
-    {
-        // this doesnt work -> $encodedUrl = urlencode($url);
-        //$content = file_get_contents($url);
-        $feed = new SimplePie();
-        $feed->set_feed_url($url);
-        $feed->init();
-        $feed->handle_content_type();
-        
-        $items = array();
-        foreach($feed->get_items() as $item)
-        {
-            $items[]= array("url"=>$item->get_permalink(), "title"=>$item->get_title(), "description"=>$item->get_description(), "date"=>$item->get_date());
-        }
-        
-        return $items;
-    }
-
-    public static function parse($content)
-    {
-        return $content;
-    }
 }
