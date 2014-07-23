@@ -39,12 +39,8 @@
 		</field> 
 
        <field name="parser" type="list"
-                
             label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_PARSER"
             description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_PARSER" 
-                
-                
-                
             multiple="false">
                 <option value="raw">raw</option>
                 <option value="craigslist">craigslist</option>

@@ -43,6 +43,8 @@
  */
 
 
+JLoader::register('simplepie', JPATH_LIBRARIES . '/simplepie/simplepie.php');
+
 // autoloader
 spl_autoload_register(array(new SimplePie_Autoloader(), 'autoload'));
 
