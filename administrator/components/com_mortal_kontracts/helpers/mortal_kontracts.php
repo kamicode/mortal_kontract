@@ -55,5 +55,41 @@ class Mortal_kontractsHelper {
         return $result;
     }
 
+    public static function getLeadList($url, $type)
+    {
+        switch($type)
+        {
+            default:
+                // this doesnt work -> $encodedUrl = urlencode($url);
+                //$content = file_get_contents($url);
+                $feed = new SimplePie();
+                $feed->set_feed_url($url);
+                $feed->init();
+                $feed->handle_content_type();
+
+                $items = array();
+                foreach($feed->get_items() as $item)
+                {
+                    $items[]= array("url"=>$item->get_permalink(), "title"=>$item->get_title(), "description"=>$item->get_description(), "date"=>$item->get_date());
+                }
+                break;
+        }
+
+
+
+        return $items;
+    }
+
+    public static function getLeadItem($content, $type)
+    {
+        switch($type)
+        {
+            default:
+                return $content;
+                break;
+        }
+
+        return $content;
+    }
 
 }

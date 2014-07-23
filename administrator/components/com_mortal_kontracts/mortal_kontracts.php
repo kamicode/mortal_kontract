@@ -18,6 +18,9 @@ if (!JFactory::getUser()->authorise('core.manage', 'com_mortal_kontracts'))
 }
 
 
+// require helper file
+JLoader::register('Mortal_kontractsHelper', JPATH_COMPONENT.'/helpers/mortal_kontracts.php');
+
 JLoader::register('MKConnector', JPATH_COMPONENT.'/models/MKConnector.php');
 
 
