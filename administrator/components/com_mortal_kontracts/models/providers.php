@@ -172,4 +172,14 @@ class Mortal_kontractsModelProviders extends JModelList {
         return $items;
     }
 
+
+    public static function connect($url)
+    {
+        return file_get_contents(urlencode($url));
+    }
+
+    public static function parse($content)
+    {
+        return $content;
+    }
 }

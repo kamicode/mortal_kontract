@@ -60,7 +60,6 @@ class Mortal_kontractsControllerProviders extends JControllerAdmin
 		// Close the application
 		JFactory::getApplication()->close();
 	}
-    
-    
-    
+
+
 }

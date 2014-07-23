@@ -17,6 +17,10 @@ if (!JFactory::getUser()->authorise('core.manage', 'com_mortal_kontracts'))
 	throw new Exception(JText::_('JERROR_ALERTNOAUTHOR'));
 }
 
+
+JLoader::register('MKConnector', JPATH_COMPONENT.'/models/MKConnector.php');
+
+
 // Include dependancies
 jimport('joomla.application.component.controller');
 
