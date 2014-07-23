@@ -78,14 +78,14 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
                 {
                     default:
                         $content = $providers_model::connect($provider->url);
-                    break;
+                        break;
                 }
 
                 $lead_data = ''; //$data['id'],
                 switch($provider->parser)
                 {
                     default:
-                        $lead_data = $providers_model::connect($content);
+                        $lead_data = $providers_model::parse($content);
                         break;
                 }
 
