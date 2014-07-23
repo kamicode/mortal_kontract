@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 
 jimport('joomla.application.component.modellist');
 
-require_once JPATH_COMPONENT_ADMINISTRATOR . '/helpers/autoloader.php';
+JLoader::register('simplepie', JPATH_LIBRARIES . '/simplepie/simplepie.php');
 
 /**
  * Methods supporting a list of Mortal_kontracts records.
