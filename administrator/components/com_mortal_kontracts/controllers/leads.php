@@ -64,7 +64,7 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
     public function retrieve()
     {
         $providers_model = parent::getModel('providers', 'Mortal_kontractsModel', array('ignore_request' => true));
-        $lead_model = parent::getModel('provider', 'Mortal_kontractsModel', array('ignore_request' => true));
+        $lead_model = parent::getModel('leads', 'Mortal_kontractsModel', array('ignore_request' => true));
 
 
         $providers = $providers_model->getItems();
@@ -89,7 +89,10 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
                         break;
                 }
 
-                $lead_model->save($lead_data);
+                foreach($content as $lead)
+                {
+                    $lead_model->save($lead);
+                }
             }
         }
 
