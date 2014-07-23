@@ -74,20 +74,14 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
             foreach($providers as $provider)
             {
                 $content = '';
-                switch($provider->connector)
-                {
-                    default:
-                        $content = Mortal_kontractsHelper::getLeadList($provider->url, $provider->connector);
-                        break;
-                }
 
+                $content = Mortal_kontractsHelper::getLeadList($provider->url, $provider->connector);
+                break;
+        
                 $lead_data = ''; //$data['id'],
-                switch($provider->parser)
-                {
-                    default:
-                        $lead_data = Mortal_kontractsHelper::getLeadItem($content, $provider->parser);
-                        break;
-                }
+
+                $lead_data = Mortal_kontractsHelper::getLeadItem($content, $provider->parser);
+
 
                 foreach($content as $lead)
                 {
