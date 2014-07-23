@@ -59,6 +59,7 @@ class Mortal_kontractsHelper {
     {
         switch($type)
         {
+            case 'rss':
             default:
                 // this doesnt work -> $encodedUrl = urlencode($url);
                 //$content = file_get_contents($url);
@@ -70,7 +71,11 @@ class Mortal_kontractsHelper {
                 $items = array();
                 foreach($feed->get_items() as $item)
                 {
-                    $items[]= array("url"=>$item->get_permalink(), "title"=>$item->get_title(), "description"=>$item->get_description(), "date"=>$item->get_date());
+                    $items[]= array("url"=>$item->get_permalink(), 
+                        "title"=>$item->get_title(), 
+                        "description"=>$item->get_description(), 
+                        "publisheddate"=>$item->get_date('Y-m-d'),
+                        "guid"=>$item->get_id(true));
                 }
                 break;
         }

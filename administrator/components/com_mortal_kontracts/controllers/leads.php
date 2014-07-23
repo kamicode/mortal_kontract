@@ -74,30 +74,26 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
             foreach($providers as $provider)
             {
                 $lead_list = array();
-
                 $lead_list  = Mortal_kontractsHelper::getLeadList($provider->url, $provider->connector);
 
                 $lead_data = array(); //$data['id'],
-
                 $lead_data = Mortal_kontractsHelper::getLeadItem($lead_list, $provider->parser);
-
-                $data['name'] = 'name';
-                $data['description']= 'description';
-                $data['url']= 'url';
-                $data['checksum']= 'checksum';
-                $data['hits']= 'hits';
-                $data['state']= 'state';
-                $data['provider_id']= $provider->id;
-                $data['region']= 'region';
-                $data['accepted_for_quote']= false;
-                $data['rating']= 'rating';
-                $data['posted']= date("Y-m-d");
-
-                $lead_data[] = $data;
 
                 foreach($lead_data as $lead)
                 {
-                    $lead_model->save($lead);
+                    $data = array();
+                    $data['id']='0';
+                    $data['name'] = $lead['title'];
+                    $data['description']= $lead['description'];
+                    $data['url']= $lead['url'];
+                    $data['checksum']= $lead['guid'];
+                    $data['hits']= 0;
+                    $data['provider_id']= $provider->id;
+                    $data['region']= 'TBD';
+                    $data['accepted_for_quote']= false;
+                    $data['rating']= 3;
+                    $data['posted']= $lead['publisheddate'];
+                    $lead_model->save($data);
                 }
             }
         }
