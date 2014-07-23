@@ -111,6 +111,9 @@ if (!empty($this->extra_sidebar)) {
                 <?php endif; ?>
                     
 				<th class='left'>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_CREATED', 'a.created', $listDirn, $listOrder); ?>
+				</th>
+				<th class='left'>
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_NAME', 'a.name', $listDirn, $listOrder); ?>
 				</th>
 				<th class='left'>
@@ -130,6 +133,9 @@ if (!empty($this->extra_sidebar)) {
 				</th>
 				<th class='left'>
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_RATING', 'a.rating', $listDirn, $listOrder); ?>
+				</th>
+				<th class='left'>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_POSTED', 'a.posted', $listDirn, $listOrder); ?>
 				</th>
                     
                     
@@ -195,6 +201,10 @@ if (!empty($this->extra_sidebar)) {
                 <?php endif; ?>
                     
 				<td>
+
+					<?php echo $item->created; ?>
+				</td>
+				<td>
 				<?php if (isset($item->checked_out) && $item->checked_out) : ?>
 					<?php echo JHtml::_('jgrid.checkedout', $i, $item->editor, $item->checked_out_time, 'leads.', $canCheckin); ?>
 				<?php endif; ?>
@@ -228,6 +238,10 @@ if (!empty($this->extra_sidebar)) {
 				<td>
 
 					<?php echo $item->rating; ?>
+				</td>
+				<td>
+
+					<?php echo $item->posted; ?>
 				</td>
 
 

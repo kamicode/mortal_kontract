@@ -6,6 +6,10 @@
             readonly="true" class="readonly"
             description="JGLOBAL_FIELD_ID_DESC" /> 
 
+       <field name="created" type="timecreated" default="" 
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_CREATED"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_CREATED"  /> 
+
        <field name="created_by" type="createdby" default="" 
             label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_CREATED_BY"
             description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_CREATED_BY"  /> 
@@ -111,6 +115,15 @@
             filter="int"
             size="1"
             maxlength="1" /> 
+
+       <field name="posted" type="calendar" class="inputbox"
+        
+        
+         default="0000-00-00" 
+        
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_POSTED"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_POSTED" 
+        filter="safehtml" /> 
 
          <field
         name="state"

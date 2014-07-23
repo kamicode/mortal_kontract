@@ -190,6 +190,7 @@ class Mortal_kontractsViewLeads extends JViewLegacy {
 		return array(
 		'a.id' => JText::_('JGRID_HEADING_ID'),
 		'a.state' => JText::_('JSTATUS'),
+		'a.created' => JText::_('COM_MORTAL_KONTRACTS_LEADS_CREATED'),
 		'a.checked_out' => JText::_('COM_MORTAL_KONTRACTS_LEADS_CHECKED_OUT'),
 		'a.checked_out_time' => JText::_('COM_MORTAL_KONTRACTS_LEADS_CHECKED_OUT_TIME'),
 		'a.name' => JText::_('COM_MORTAL_KONTRACTS_LEADS_NAME'),
@@ -199,6 +200,7 @@ class Mortal_kontractsViewLeads extends JViewLegacy {
 		'a.region' => JText::_('COM_MORTAL_KONTRACTS_LEADS_REGION'),
 		'a.accepted_for_quote' => JText::_('COM_MORTAL_KONTRACTS_LEADS_ACCEPTED_FOR_QUOTE'),
 		'a.rating' => JText::_('COM_MORTAL_KONTRACTS_LEADS_RATING'),
+		'a.posted' => JText::_('COM_MORTAL_KONTRACTS_LEADS_POSTED'),
 		);
 	}
 

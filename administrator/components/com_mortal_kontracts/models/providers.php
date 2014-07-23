@@ -59,11 +59,11 @@ class Mortal_kontractsModelProviders extends JModelList {
         $this->setState('filter.state', $published);
 
         
-        //Filtering connector
-        $this->setState('filter.connector', $app->getUserStateFromRequest($this->context.'.filter.connector', 'filter_connector', '', 'string'));
+		//Filtering connector
+		$this->setState('filter.connector', $app->getUserStateFromRequest($this->context.'.filter.connector', 'filter_connector', '', 'string'));
 
-        //Filtering parser
-        $this->setState('filter.parser', $app->getUserStateFromRequest($this->context.'.filter.parser', 'filter_parser', '', 'string'));
+		//Filtering parser
+		$this->setState('filter.parser', $app->getUserStateFromRequest($this->context.'.filter.parser', 'filter_parser', '', 'string'));
 
 
         // Load the parameters.
@@ -143,17 +143,17 @@ class Mortal_kontractsModelProviders extends JModelList {
 
         
 
-        //Filtering connector
-        $filter_connector = $this->state->get("filter.connector");
-        if ($filter_connector) {
-            $query->where("a.connector = '".$db->escape($filter_connector)."'");
-        }
+		//Filtering connector
+		$filter_connector = $this->state->get("filter.connector");
+		if ($filter_connector) {
+			$query->where("a.connector = '".$db->escape($filter_connector)."'");
+		}
 
-        //Filtering parser
-        $filter_parser = $this->state->get("filter.parser");
-        if ($filter_parser) {
-            $query->where("a.parser = '".$db->escape($filter_parser)."'");
-        }
+		//Filtering parser
+		$filter_parser = $this->state->get("filter.parser");
+		if ($filter_parser) {
+			$query->where("a.parser = '".$db->escape($filter_parser)."'");
+		}
 
 
         // Add the list ordering clause.

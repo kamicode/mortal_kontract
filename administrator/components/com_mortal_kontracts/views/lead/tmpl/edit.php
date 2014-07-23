@@ -65,6 +65,10 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 				<div class="controls"><?php echo $this->form->getInput('id'); ?></div>
 			</div>
 				<input type="hidden" name="jform[state]" value="<?php echo $this->item->state; ?>" />
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('created'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('created'); ?></div>
+			</div>
 				<input type="hidden" name="jform[checked_out]" value="<?php echo $this->item->checked_out; ?>" />
 				<input type="hidden" name="jform[checked_out_time]" value="<?php echo $this->item->checked_out_time; ?>" />
 
@@ -117,6 +121,10 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 			<div class="control-group">
 				<div class="control-label"><?php echo $this->form->getLabel('rating'); ?></div>
 				<div class="controls"><?php echo $this->form->getInput('rating'); ?></div>
+			</div>
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('posted'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('posted'); ?></div>
 			</div>
 
 

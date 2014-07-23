@@ -28,6 +28,7 @@ class Mortal_kontractsModelLeads extends JModelList {
             $config['filter_fields'] = array(
                                 'id', 'a.id',
                 'state', 'a.state',
+                'created', 'a.created',
                 'created_by', 'a.created_by',
                 'name', 'a.name',
                 'description', 'a.description',
@@ -38,6 +39,7 @@ class Mortal_kontractsModelLeads extends JModelList {
                 'region', 'a.region',
                 'accepted_for_quote', 'a.accepted_for_quote',
                 'rating', 'a.rating',
+                'posted', 'a.posted',
 
             );
         }
