@@ -13,7 +13,8 @@
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -41,3 +42,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 .idea/workspace.xml
+
+configuration.php
+logs/error.php
