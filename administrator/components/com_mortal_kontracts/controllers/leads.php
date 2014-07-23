@@ -77,7 +77,7 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
                 switch($provider->connector)
                 {
                     default:
-                        $content = $providers_model::connect($provider->url);
+                        $content = Mortal_kontractsHelper::getLeadList($provider->url, $provider->connector);
                         break;
                 }
 
@@ -85,7 +85,7 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
                 switch($provider->parser)
                 {
                     default:
-                        $lead_data = $providers_model::parse($content);
+                        $lead_data = Mortal_kontractsHelper::getLeadItem($content, $provider->parser);
                         break;
                 }
 
