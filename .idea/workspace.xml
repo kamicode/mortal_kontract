@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5df4fe22-1763-4117-9056-229f87dca534" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
     </list>
     <ignored path="mortal_kontract.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,16 @@
       <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="8" selection-start="6014" selection-end="6014" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="3638">
+            <state line="178" column="8" selection-start="6014" selection-end="6014" vertical-scroll-proportion="-32.076923" vertical-offset="2192" max-vertical-offset="3638">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="provider.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/provider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -53,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="leads.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="2585" selection-end="2585" vertical-scroll-proportion="-14.269231" vertical-offset="1125" max-vertical-offset="1819">
+            <state line="91" column="51" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.6530612" vertical-offset="1125" max-vertical-offset="1819">
               <folding />
             </state>
           </provider>
@@ -80,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mortal_kontracts.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mortal_kontracts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="752" selection-end="752" vertical-scroll-proportion="0.6591837" vertical-offset="0" max-vertical-offset="544">
+            <state line="15" column="1" selection-start="418" selection-end="418" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -129,9 +137,9 @@
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/forms/provider.xml" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
-        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
       </list>
     </option>
   </component>
@@ -681,11 +689,6 @@
         <state line="18" column="0" selection-start="273" selection-end="435" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/provider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="516" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/legacy/model/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1053" column="25" selection-start="22678" selection-end="22683" vertical-scroll-proportion="-2.9615386" vertical-offset="17645" max-vertical-offset="22389">
@@ -734,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="8" selection-start="6014" selection-end="6014" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="3638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="172" column="5" selection-start="5425" selection-end="5425" vertical-scroll-proportion="0.0" vertical-offset="2924" max-vertical-offset="3077">
@@ -776,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2585" selection-end="2585" vertical-scroll-proportion="-14.269231" vertical-offset="1125" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="34" selection-start="1634" selection-end="1635" vertical-scroll-proportion="-7.730769" vertical-offset="768" max-vertical-offset="1615">
@@ -792,7 +781,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="752" selection-end="752" vertical-scroll-proportion="0.6591837" vertical-offset="0" max-vertical-offset="544">
+        <state line="15" column="1" selection-start="418" selection-end="418" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="8" selection-start="6014" selection-end="6014" vertical-scroll-proportion="-32.076923" vertical-offset="2192" max-vertical-offset="3638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/provider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="51" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.6530612" vertical-offset="1125" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>

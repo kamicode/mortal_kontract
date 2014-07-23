@@ -79,7 +79,7 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
 
                 $lead_data = array(); //$data['id'],
 
-                $lead_data = Mortal_kontractsHelper::getLeadItem($content, $provider->parser);
+                $lead_data = Mortal_kontractsHelper::getLeadItem($lead_list, $provider->parser);
 
                 $data['name'] = 'name';
                 $data['description']= 'description';
