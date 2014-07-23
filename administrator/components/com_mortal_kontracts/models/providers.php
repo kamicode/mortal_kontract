@@ -179,7 +179,8 @@ class Mortal_kontractsModelProviders extends JModelList {
     {
         // this doesnt work -> $encodedUrl = urlencode($url);
         //$content = file_get_contents($url);
-        $feed = new SimplePie($url);
+        $feed = new SimplePie();
+        $feed->set_feed_url($url);
         $feed->init();
         $feed->handle_content_type();
         
