@@ -65,8 +65,6 @@ class Mortal_kontractsHelper {
         {
             case 'rss':
             default:
-                // this doesnt work -> $encodedUrl = urlencode($url);
-                //$content = file_get_contents($url);
                 $feed = new SimplePie();
                 $feed->set_feed_url($url);
                 $feed->init();
@@ -78,7 +76,8 @@ class Mortal_kontractsHelper {
                     $items[]= array("url"=>$item->get_permalink(), 
                         "title"=>$item->get_title(), 
                         "description"=>$item->get_description(), 
-                        "posted"=>$item->get_date('Y-m-d'),
+                        "created"=>date("Y-m-d H:i:s"),
+                        "posted"=>$item->get_date("Y-m-d H:i:s"),
                         "guid"=>$item->get_id(false),
                         "checksum"=>$item->get_id(true),
                         "hits"=>0,
@@ -109,7 +108,7 @@ class Mortal_kontractsHelper {
                     {
                        if($element->class == 'summary')
                        {
-                           $lead['description'] = $element->plaintext;
+                           $lead['description'] = '<pre>' . $element->plaintext . '</pre>';
                        }
                     }
                 }
