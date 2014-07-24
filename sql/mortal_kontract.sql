@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50527
 File Encoding         : 65001
 
-Date: 2014-07-24 01:38:42
+Date: 2014-07-24 02:44:53
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -539,7 +539,7 @@ INSERT INTO `mk_extensions` VALUES ('32', 'com_postinstall', 'component', 'com_p
 INSERT INTO `mk_extensions` VALUES ('100', 'PHPMailer', 'library', 'phpmailer', '', '0', '1', '1', '1', '{\"name\":\"PHPMailer\",\"type\":\"library\",\"creationDate\":\"2001\",\"author\":\"PHPMailer\",\"copyright\":\"(c) 2001-2003, Brent R. Matzelle, (c) 2004-2009, Andy Prevost. All Rights Reserved., (c) 2010-2013, Jim Jagielski. All Rights Reserved.\",\"authorEmail\":\"jimjag@gmail.com\",\"authorUrl\":\"https:\\/\\/github.com\\/PHPMailer\\/PHPMailer\",\"version\":\"5.2.6\",\"description\":\"LIB_PHPMAILER_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('101', 'SimplePie', 'library', 'simplepie', '', '0', '1', '1', '1', '{\"name\":\"SimplePie\",\"type\":\"library\",\"creationDate\":\"2004\",\"author\":\"SimplePie\",\"copyright\":\"Copyright (c) 2004-2009, Ryan Parman and Geoffrey Sneddon\",\"authorEmail\":\"\",\"authorUrl\":\"http:\\/\\/simplepie.org\\/\",\"version\":\"1.2\",\"description\":\"LIB_SIMPLEPIE_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('102', 'phputf8', 'library', 'phputf8', '', '0', '1', '1', '1', '{\"name\":\"phputf8\",\"type\":\"library\",\"creationDate\":\"2006\",\"author\":\"Harry Fuecks\",\"copyright\":\"Copyright various authors\",\"authorEmail\":\"hfuecks@gmail.com\",\"authorUrl\":\"http:\\/\\/sourceforge.net\\/projects\\/phputf8\",\"version\":\"0.5\",\"description\":\"LIB_PHPUTF8_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
-INSERT INTO `mk_extensions` VALUES ('103', 'Joomla! Platform', 'library', 'joomla', '', '0', '1', '1', '1', '{\"name\":\"Joomla! Platform\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"http:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\"}', '{\"mediaversion\":\"a8365196049713bb58ad29d2bb546a67\"}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
+INSERT INTO `mk_extensions` VALUES ('103', 'Joomla! Platform', 'library', 'joomla', '', '0', '1', '1', '1', '{\"name\":\"Joomla! Platform\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"http:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\"}', '{\"mediaversion\":\"8fe3238d1c5180108e5c97eeaa617d9f\"}', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('104', 'IDNA Convert', 'library', 'idna_convert', '', '0', '1', '1', '1', '{\"name\":\"IDNA Convert\",\"type\":\"library\",\"creationDate\":\"2004\",\"author\":\"phlyLabs\",\"copyright\":\"2004-2011 phlyLabs Berlin, http:\\/\\/phlylabs.de\",\"authorEmail\":\"phlymail@phlylabs.de\",\"authorUrl\":\"http:\\/\\/phlylabs.de\",\"version\":\"0.8.0\",\"description\":\"LIB_IDNA_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('105', 'FOF', 'library', 'fof', '', '0', '1', '1', '1', '{\"name\":\"FOF\",\"type\":\"library\",\"creationDate\":\"2014-03-09 12:54:48\",\"author\":\"Nicholas K. Dionysopoulos \\/ Akeeba Ltd\",\"copyright\":\"(C)2011-2014 Nicholas K. Dionysopoulos\",\"authorEmail\":\"nicholas@akeebabackup.com\",\"authorUrl\":\"https:\\/\\/www.akeebabackup.com\",\"version\":\"2.2.1\",\"description\":\"LIB_FOF_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
 INSERT INTO `mk_extensions` VALUES ('106', 'PHPass', 'library', 'phpass', '', '0', '1', '1', '1', '{\"name\":\"PHPass\",\"type\":\"library\",\"creationDate\":\"2004-2006\",\"author\":\"Solar Designer\",\"copyright\":\"\",\"authorEmail\":\"solar@openwall.com\",\"authorUrl\":\"http:\\/\\/www.openwall.com\\/phpass\\/\",\"version\":\"0.3\",\"description\":\"LIB_PHPASS_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0');
@@ -1303,7 +1303,7 @@ CREATE TABLE `mk_menu` (
   KEY `idx_alias` (`alias`),
   KEY `idx_path` (`path`(255)),
   KEY `idx_language` (`language`)
-) ENGINE=InnoDB AUTO_INCREMENT=120 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=123 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of mk_menu
@@ -1333,9 +1333,9 @@ INSERT INTO `mk_menu` VALUES ('22', 'menu', 'com_joomlaupdate', 'Joomla! Update'
 INSERT INTO `mk_menu` VALUES ('23', 'main', 'com_tags', 'Tags', '', 'Tags', 'index.php?option=com_tags', 'component', '0', '1', '1', '29', '0', '0000-00-00 00:00:00', '0', '1', 'class:tags', '0', '', '43', '44', '0', '', '1');
 INSERT INTO `mk_menu` VALUES ('24', 'main', 'com_postinstall', 'Post-installation messages', '', 'Post-installation messages', 'index.php?option=com_postinstall', 'component', '0', '1', '1', '32', '0', '0000-00-00 00:00:00', '0', '1', 'class:postinstall', '0', '', '45', '46', '0', '*', '1');
 INSERT INTO `mk_menu` VALUES ('101', 'mainmenu', 'Home', 'home', '', 'home', 'index.php?option=com_content&view=featured', 'component', '1', '1', '1', '22', '0', '0000-00-00 00:00:00', '0', '1', '', '0', '{\"featured_categories\":[\"\"],\"layout_type\":\"blog\",\"num_leading_articles\":\"1\",\"num_intro_articles\":\"3\",\"num_columns\":\"3\",\"num_links\":\"0\",\"multi_column_order\":\"1\",\"orderby_pri\":\"\",\"orderby_sec\":\"front\",\"order_date\":\"\",\"show_pagination\":\"2\",\"show_pagination_results\":\"1\",\"show_title\":\"\",\"link_titles\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_vote\":\"\",\"show_readmore\":\"\",\"show_readmore_title\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"show_feed_link\":\"1\",\"feed_summary\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_text\":1,\"page_title\":\"\",\"show_page_heading\":1,\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', '47', '48', '1', '*', '0');
-INSERT INTO `mk_menu` VALUES ('117', 'main', 'COM_MORTAL_KONTRACTS', 'com-mortal-kontracts', '', 'com-mortal-kontracts', 'index.php?option=com_mortal_kontracts', 'component', '0', '1', '1', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_com_mortal_kontracts.png', '0', '', '49', '54', '0', '', '1');
-INSERT INTO `mk_menu` VALUES ('118', 'main', 'COM_MORTAL_KONTRACTS_TITLE_LEADS', 'com-mortal-kontracts-title-leads', '', 'com-mortal-kontracts/com-mortal-kontracts-title-leads', 'index.php?option=com_mortal_kontracts&view=leads', 'component', '0', '117', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_leads.png', '0', '', '50', '51', '0', '', '1');
-INSERT INTO `mk_menu` VALUES ('119', 'main', 'COM_MORTAL_KONTRACTS_TITLE_PROVIDERS', 'com-mortal-kontracts-title-providers', '', 'com-mortal-kontracts/com-mortal-kontracts-title-providers', 'index.php?option=com_mortal_kontracts&view=providers', 'component', '0', '117', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_providers.png', '0', '', '52', '53', '0', '', '1');
+INSERT INTO `mk_menu` VALUES ('120', 'main', 'COM_MORTAL_KONTRACTS', 'com-mortal-kontracts', '', 'com-mortal-kontracts', 'index.php?option=com_mortal_kontracts', 'component', '0', '1', '1', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_com_mortal_kontracts.png', '0', '', '49', '54', '0', '', '1');
+INSERT INTO `mk_menu` VALUES ('121', 'main', 'COM_MORTAL_KONTRACTS_TITLE_LEADS', 'com-mortal-kontracts-title-leads', '', 'com-mortal-kontracts/com-mortal-kontracts-title-leads', 'index.php?option=com_mortal_kontracts&view=leads', 'component', '0', '120', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_leads.png', '0', '', '50', '51', '0', '', '1');
+INSERT INTO `mk_menu` VALUES ('122', 'main', 'COM_MORTAL_KONTRACTS_TITLE_PROVIDERS', 'com-mortal-kontracts-title-providers', '', 'com-mortal-kontracts/com-mortal-kontracts-title-providers', 'index.php?option=com_mortal_kontracts&view=providers', 'component', '0', '120', '2', '10001', '0', '0000-00-00 00:00:00', '0', '1', 'components/com_mortal_kontracts/assets/images/s_providers.png', '0', '', '52', '53', '0', '', '1');
 
 -- ----------------------------
 -- Table structure for `mk_menu_types`
@@ -1481,7 +1481,7 @@ CREATE TABLE `mk_mortal_kontracts_leads` (
   `checked_out` int(11) NOT NULL,
   `checked_out_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `created_by` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
   `description` text NOT NULL,
   `url` varchar(255) NOT NULL,
   `checksum` varchar(255) NOT NULL,
@@ -1492,13 +1492,14 @@ CREATE TABLE `mk_mortal_kontracts_leads` (
   `rating` varchar(255) NOT NULL,
   `created` datetime NOT NULL,
   `posted` date NOT NULL,
+  `guid` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of mk_mortal_kontracts_leads
 -- ----------------------------
-INSERT INTO `mk_mortal_kontracts_leads` VALUES ('1', '0', '0', '0000-00-00 00:00:00', '0', 'name', 'description', 'url', 'checksum', 'hits', '1', 'region', '', 'rating', '0000-00-00 00:00:00', '2014-07-23');
+INSERT INTO `mk_mortal_kontracts_leads` VALUES ('1', '0', '0', '0000-00-00 00:00:00', '0', 'name', 'description', 'url', 'checksum', 'hits', '1', 'region', '', 'rating', '0000-00-00 00:00:00', '2014-07-23', '');
 
 -- ----------------------------
 -- Table structure for `mk_mortal_kontracts_providers`
@@ -1511,9 +1512,9 @@ CREATE TABLE `mk_mortal_kontracts_providers` (
   `checked_out` int(11) NOT NULL,
   `checked_out_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `created_by` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `connector` varchar(255) NOT NULL,
-  `parser` varchar(255) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `list_parser` varchar(255) DEFAULT NULL,
+  `item_parser` varchar(255) DEFAULT NULL,
   `average_rating` varchar(255) NOT NULL,
   `url` varchar(255) NOT NULL,
   `keywords` text NOT NULL,
@@ -1523,7 +1524,7 @@ CREATE TABLE `mk_mortal_kontracts_providers` (
 -- ----------------------------
 -- Records of mk_mortal_kontracts_providers
 -- ----------------------------
-INSERT INTO `mk_mortal_kontracts_providers` VALUES ('1', '1', '1', '0', '0000-00-00 00:00:00', '6', 'RFP DB WEB DEV', 'raw', 'raw', '0', 'http://www.rfpdb.com/view/category/name/web-development', '');
+INSERT INTO `mk_mortal_kontracts_providers` VALUES ('1', '1', '1', '0', '0000-00-00 00:00:00', '6', 'RFP DB WEB DEV', 'raw', 'raw', '0', 'http://www.rfpdb.com/view/category/name/web-development', '2,3');
 
 -- ----------------------------
 -- Table structure for `mk_newsfeeds`
@@ -1678,7 +1679,7 @@ CREATE TABLE `mk_session` (
 -- ----------------------------
 -- Records of mk_session
 -- ----------------------------
-INSERT INTO `mk_session` VALUES ('d9b2jtc1sepb1vddovo7k19gn1', '1', '0', '1406180153', '__default|a:8:{s:15:\"session.counter\";i:5;s:19:\"session.timer.start\";i:1406180116;s:18:\"session.timer.last\";i:1406180150;s:17:\"session.timer.now\";i:1406180153;s:22:\"session.client.browser\";s:109:\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36\";s:8:\"registry\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":2:{s:11:\"application\";O:8:\"stdClass\":1:{s:4:\"lang\";s:5:\"en-GB\";}s:13:\"com_installer\";O:8:\"stdClass\":3:{s:7:\"message\";s:0:\"\";s:17:\"extension_message\";s:0:\"\";s:12:\"redirect_url\";N;}}}s:4:\"user\";O:5:\"JUser\":27:{s:9:\"\\0\\0\\0isRoot\";b:1;s:2:\"id\";s:1:\"6\";s:4:\"name\";s:10:\"Super User\";s:8:\"username\";s:8:\"kamicode\";s:5:\"email\";s:14:\"j@kamicode.com\";s:8:\"password\";s:60:\"$2y$10$7.OZmgH/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL/KRGeBuRPwXV7u\";s:14:\"password_clear\";s:0:\"\";s:5:\"block\";s:1:\"0\";s:9:\"sendEmail\";s:1:\"1\";s:12:\"registerDate\";s:19:\"2014-07-22 19:52:21\";s:13:\"lastvisitDate\";s:19:\"2014-07-23 17:43:46\";s:10:\"activation\";s:1:\"0\";s:6:\"params\";s:0:\"\";s:6:\"groups\";a:1:{i:8;s:1:\"8\";}s:5:\"guest\";i:0;s:13:\"lastResetTime\";s:19:\"0000-00-00 00:00:00\";s:10:\"resetCount\";s:1:\"0\";s:12:\"requireReset\";s:1:\"0\";s:10:\"\\0\\0\\0_params\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":0:{}}s:14:\"\\0\\0\\0_authGroups\";a:2:{i:0;i:1;i:1;i:8;}s:14:\"\\0\\0\\0_authLevels\";a:5:{i:0;i:1;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:6;}s:15:\"\\0\\0\\0_authActions\";N;s:12:\"\\0\\0\\0_errorMsg\";N;s:10:\"\\0\\0\\0_errors\";a:0:{}s:3:\"aid\";i:0;s:6:\"otpKey\";s:0:\"\";s:4:\"otep\";s:0:\"\";}s:13:\"session.token\";s:32:\"1cad54faec76be5e3fe734278e4e286f\";}', '6', 'kamicode');
+INSERT INTO `mk_session` VALUES ('d9b2jtc1sepb1vddovo7k19gn1', '1', '0', '1406184165', '__default|a:8:{s:15:\"session.counter\";i:29;s:19:\"session.timer.start\";i:1406180116;s:18:\"session.timer.last\";i:1406184120;s:17:\"session.timer.now\";i:1406184165;s:22:\"session.client.browser\";s:109:\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36\";s:8:\"registry\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":3:{s:11:\"application\";O:8:\"stdClass\":1:{s:4:\"lang\";s:5:\"en-GB\";}s:13:\"com_installer\";O:8:\"stdClass\":3:{s:7:\"message\";s:0:\"\";s:17:\"extension_message\";s:0:\"\";s:12:\"redirect_url\";N;}s:20:\"com_mortal_kontracts\";O:8:\"stdClass\":1:{s:4:\"edit\";O:8:\"stdClass\":2:{s:8:\"provider\";O:8:\"stdClass\":2:{s:2:\"id\";a:0:{}s:4:\"data\";N;}s:4:\"lead\";O:8:\"stdClass\":2:{s:2:\"id\";a:0:{}s:4:\"data\";N;}}}}}s:4:\"user\";O:5:\"JUser\":27:{s:9:\"\\0\\0\\0isRoot\";b:1;s:2:\"id\";s:1:\"6\";s:4:\"name\";s:10:\"Super User\";s:8:\"username\";s:8:\"kamicode\";s:5:\"email\";s:14:\"j@kamicode.com\";s:8:\"password\";s:60:\"$2y$10$7.OZmgH/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL/KRGeBuRPwXV7u\";s:14:\"password_clear\";s:0:\"\";s:5:\"block\";s:1:\"0\";s:9:\"sendEmail\";s:1:\"1\";s:12:\"registerDate\";s:19:\"2014-07-22 19:52:21\";s:13:\"lastvisitDate\";s:19:\"2014-07-23 17:43:46\";s:10:\"activation\";s:1:\"0\";s:6:\"params\";s:0:\"\";s:6:\"groups\";a:1:{i:8;s:1:\"8\";}s:5:\"guest\";i:0;s:13:\"lastResetTime\";s:19:\"0000-00-00 00:00:00\";s:10:\"resetCount\";s:1:\"0\";s:12:\"requireReset\";s:1:\"0\";s:10:\"\\0\\0\\0_params\";O:24:\"Joomla\\Registry\\Registry\":1:{s:7:\"\\0\\0\\0data\";O:8:\"stdClass\":0:{}}s:14:\"\\0\\0\\0_authGroups\";a:2:{i:0;i:1;i:1;i:8;}s:14:\"\\0\\0\\0_authLevels\";a:5:{i:0;i:1;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:6;}s:15:\"\\0\\0\\0_authActions\";N;s:12:\"\\0\\0\\0_errorMsg\";N;s:10:\"\\0\\0\\0_errors\";a:0:{}s:3:\"aid\";i:0;s:6:\"otpKey\";s:0:\"\";s:4:\"otep\";s:0:\"\";}s:13:\"session.token\";s:32:\"1cad54faec76be5e3fe734278e4e286f\";}', '6', 'kamicode');
 
 -- ----------------------------
 -- Table structure for `mk_tags`
@@ -1723,12 +1724,14 @@ CREATE TABLE `mk_tags` (
   KEY `idx_left_right` (`lft`,`rgt`),
   KEY `idx_alias` (`alias`),
   KEY `idx_language` (`language`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of mk_tags
 -- ----------------------------
 INSERT INTO `mk_tags` VALUES ('1', '0', '0', '1', '0', '', 'ROOT', 'root', '', '', '1', '0', '0000-00-00 00:00:00', '1', '', '', '', '', '0', '2011-01-01 00:00:01', '', '0', '0000-00-00 00:00:00', '', '', '0', '*', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `mk_tags` VALUES ('2', '0', '2', '3', '0', 'php', 'php', 'php', '', '', '1', '0', '0000-00-00 00:00:00', '1', '', '', '', '{\"author\":\"\",\"robots\":\"\",\"tags\":null}', '6', '2014-07-24 05:50:18', '', '0', '0000-00-00 00:00:00', '', '', '0', '', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `mk_tags` VALUES ('3', '0', '4', '5', '0', 'joomla', 'joomla', 'joomla', '', '', '1', '0', '0000-00-00 00:00:00', '1', '', '', '', '{\"author\":\"\",\"robots\":\"\",\"tags\":null}', '6', '2014-07-24 05:50:18', '', '0', '0000-00-00 00:00:00', '', '', '0', '', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- ----------------------------
 -- Table structure for `mk_template_styles`
@@ -1847,11 +1850,13 @@ CREATE TABLE `mk_ucm_history` (
   PRIMARY KEY (`version_id`),
   KEY `idx_ucm_item_id` (`ucm_type_id`,`ucm_item_id`),
   KEY `idx_save_date` (`save_date`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of mk_ucm_history
 -- ----------------------------
+INSERT INTO `mk_ucm_history` VALUES ('1', '2', '10', '', '2014-07-24 05:50:18', '6', '964', '2734a286ed7082e8a4c502fb73c9f3c54231ee27', '{\"id\":2,\"parent_id\":\"0\",\"lft\":2,\"rgt\":3,\"level\":\"0\",\"path\":\"php\",\"title\":\"php\",\"alias\":\"php\",\"note\":null,\"description\":null,\"published\":1,\"checked_out\":0,\"checked_out_time\":null,\"access\":1,\"params\":null,\"metadesc\":null,\"metakey\":null,\"metadata\":\"{\\\"author\\\":\\\"\\\",\\\"robots\\\":\\\"\\\",\\\"tags\\\":null}\",\"created_user_id\":\"6\",\"created_time\":\"2014-07-24 05:50:18\",\"created_by_alias\":{\"id\":\"6\",\"name\":\"Super User\",\"username\":\"kamicode\",\"email\":\"j@kamicode.com\",\"password\":\"$2y$10$7.OZmgH\\/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL\\/KRGeBuRPwXV7u\",\"password_clear\":\"\",\"block\":\"0\",\"sendEmail\":\"1\",\"registerDate\":\"2014-07-22 19:52:21\",\"lastvisitDate\":\"2014-07-23 17:43:46\",\"activation\":\"0\",\"params\":\"\",\"groups\":{\"8\":\"8\"},\"guest\":0,\"lastResetTime\":\"0000-00-00 00:00:00\",\"resetCount\":\"0\",\"requireReset\":\"0\",\"aid\":0,\"otpKey\":\"\",\"otep\":\"\"},\"modified_user_id\":null,\"modified_time\":null,\"images\":null,\"urls\":null,\"hits\":null,\"language\":null,\"version\":null,\"publish_up\":null,\"publish_down\":null}', '0');
+INSERT INTO `mk_ucm_history` VALUES ('2', '3', '10', '', '2014-07-24 05:50:18', '6', '973', 'aec18b26b1e7f65097cd56ea2c10861bd692c35c', '{\"id\":3,\"parent_id\":\"0\",\"lft\":4,\"rgt\":5,\"level\":\"0\",\"path\":\"joomla\",\"title\":\"joomla\",\"alias\":\"joomla\",\"note\":null,\"description\":null,\"published\":1,\"checked_out\":0,\"checked_out_time\":null,\"access\":1,\"params\":null,\"metadesc\":null,\"metakey\":null,\"metadata\":\"{\\\"author\\\":\\\"\\\",\\\"robots\\\":\\\"\\\",\\\"tags\\\":null}\",\"created_user_id\":\"6\",\"created_time\":\"2014-07-24 05:50:18\",\"created_by_alias\":{\"id\":\"6\",\"name\":\"Super User\",\"username\":\"kamicode\",\"email\":\"j@kamicode.com\",\"password\":\"$2y$10$7.OZmgH\\/7vXQay3gIBUnCOCcvznrPHAGYPjSXxL\\/KRGeBuRPwXV7u\",\"password_clear\":\"\",\"block\":\"0\",\"sendEmail\":\"1\",\"registerDate\":\"2014-07-22 19:52:21\",\"lastvisitDate\":\"2014-07-23 17:43:46\",\"activation\":\"0\",\"params\":\"\",\"groups\":{\"8\":\"8\"},\"guest\":0,\"lastResetTime\":\"0000-00-00 00:00:00\",\"resetCount\":\"0\",\"requireReset\":\"0\",\"aid\":0,\"otpKey\":\"\",\"otep\":\"\"},\"modified_user_id\":null,\"modified_time\":null,\"images\":null,\"urls\":null,\"hits\":null,\"language\":null,\"version\":null,\"publish_up\":null,\"publish_down\":null}', '0');
 
 -- ----------------------------
 -- Table structure for `mk_updates`
