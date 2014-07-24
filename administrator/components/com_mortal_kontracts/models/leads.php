@@ -163,6 +163,11 @@ class Mortal_kontractsModelLeads extends JModelList {
 			$query->where("a.region = '".$db->escape($filter_region)."'");
 		}
 
+        //Filtering checksum
+		$filter_checksum = $this->state->get("filter.checksum");
+		if ($filter_checksum) {
+			$query->where("a.checksum = '".$db->escape($filter_checksum)."'");
+		}
 
         // Add the list ordering clause.
         $orderCol = $this->state->get('list.ordering');

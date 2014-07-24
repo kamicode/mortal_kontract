@@ -64,8 +64,7 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
     public function retrieve()
     {
         $providers_model = parent::getModel('providers', 'Mortal_kontractsModel', array('ignore_request' => true));
-        $lead_model = parent::getModel('lead', 'Mortal_kontractsModel', array('ignore_request' => true));
-
+        $leads_model = parent::getModel('leads', 'Mortal_kontractsModel', array('ignore_request' => true));
 
         $providers = $providers_model->getItems();
 
@@ -73,16 +72,12 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
         {
             foreach($providers as $provider)
             {
-                $lead_list = array();
-                $lead_list  = Mortal_kontractsHelper::getLeadList($provider->url, $provider->connector);
-
-                $lead_data = array(); //$data['id'],
+                $lead_list = Mortal_kontractsHelper::getLeadList($provider->url, $provider->connector);
                 $lead_data = Mortal_kontractsHelper::getLeadItem($lead_list, $provider->parser);
 
                 foreach($lead_data as $lead)
                 {
                     $data = array();
-                    $data['id']='0';
                     $data['name'] = $lead['title'];
                     $data['description']= $lead['description'];
                     $data['url']= $lead['url'];
@@ -93,7 +88,14 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
                     $data['accepted_for_quote']= false;
                     $data['rating']= 3;
                     $data['posted']= $lead['publisheddate'];
-                    $lead_model->save($data);
+                    
+                    //check if checksum is already in db, if not add new record
+                    $leads_model->setState('filter.checksum', $data['checksum']);
+                    if($leads_model->getTotal() == 0)
+                    {
+                        $lead_model = parent::getModel('lead', 'Mortal_kontractsModel', array('ignore_request' => true));
+                        $lead_model->save($data);
+                    }
                 }
             }
         }
