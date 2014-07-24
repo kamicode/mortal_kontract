@@ -55,9 +55,13 @@ class Mortal_kontractsHelper {
         return $result;
     }
 
-    public static function getLeadList($url, $type)
+    public static function getLeadList($provider)
     {
-        switch($type)
+        $url = $provider->url;
+        $listParser = $provider->list_parser;
+        $providerId = $provider->id;
+        
+        switch($listParser)
         {
             case 'rss':
             default:
@@ -74,8 +78,15 @@ class Mortal_kontractsHelper {
                     $items[]= array("url"=>$item->get_permalink(), 
                         "title"=>$item->get_title(), 
                         "description"=>$item->get_description(), 
-                        "publisheddate"=>$item->get_date('Y-m-d'),
-                        "guid"=>$item->get_id(true));
+                        "posted"=>$item->get_date('Y-m-d'),
+                        "guid"=>$item->get_id(false),
+                        "checksum"=>$item->get_id(true),
+                        "hits"=>0,
+                        "region"=>"canada",
+                        "accepted_for_quote"=>false,
+                        "rating"=>3,
+                        "provider_id"=>$providerId);
+                    
                 }
                 break;
         }
@@ -85,16 +96,32 @@ class Mortal_kontractsHelper {
         return $items;
     }
 
-    public static function getLeadItem($content, $type)
+    public static function getLeadItem($leads, $type)
     {
         switch($type)
         {
+            case 'indeed':
+                foreach($leads as &$lead)
+                {
+                    $html = file_get_html($lead['url']);
+
+                    foreach($html->find('span') as $element)
+                    {
+                       if($element->class == 'summary')
+                       {
+                           $lead['description'] = $element->plaintext;
+                       }
+                    }
+                }
+                
+                return $leads;
+                break;
             default:
-                return $content;
+                return $leads;
                 break;
         }
 
-        return $content;
+        return $leads;
     }
 
 }

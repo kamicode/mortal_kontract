@@ -54,6 +54,7 @@
             multiple="false">
                 <option value="raw">raw</option>
                 <option value="craigslist">craigslist</option>
+                <option value="indeed">indeed</option>
                 <option value="kijiji">kijiji</option>
                 <option value="smart">smart</option>
         </field> 
@@ -63,6 +64,7 @@
 			<option value="">COM_MORTAL_KONTRACTS_PROVIDERS_ITEM_PARSER_FILTER</option>
 			<option value="raw">raw</option>
 			<option value="craigslist">craigslist</option>
+            <option value="indeed">indeed</option>
 			<option value="kijiji">kijiji</option>
 			<option value="smart">smart</option>
 		</field> 
