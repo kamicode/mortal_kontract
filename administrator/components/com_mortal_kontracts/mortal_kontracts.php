@@ -17,8 +17,17 @@ if (!JFactory::getUser()->authorise('core.manage', 'com_mortal_kontracts'))
 	throw new Exception(JText::_('JERROR_ALERTNOAUTHOR'));
 }
 
+
+
 // Include dependancies
 jimport('joomla.application.component.controller');
+
+
+// require helper file
+JLoader::register('Mortal_kontractsHelper', JPATH_COMPONENT.'/helpers/mortal_kontracts.php');
+JLoader::register('simplepie', JPATH_LIBRARIES . '/simplepie/simplepie.php');
+JLoader::register('MKConnector', JPATH_COMPONENT.'/models/MKConnector.php');
+JLoader::register('simple_html_dom', JPATH_LIBRARIES . '/simple_html_dom/simple_html_dom.php');
 
 $controller	= JControllerLegacy::getInstance('Mortal_kontracts');
 $controller->execute(JFactory::getApplication()->input->get('task'));
