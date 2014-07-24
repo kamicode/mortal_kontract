@@ -10,41 +10,47 @@
             label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_CREATED_BY"
             description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_CREATED_BY"  /> 
 
-       <field name="name" type="text"
+       <field name="title" type="text"
                 
-            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_NAME"
-            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_NAME" 
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_TITLE"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_TITLE" 
                 
                 
-                 required="true"  /> 
+                 required="true" 
+            menu_published="0"
+            filter="raw" /> 
 
-       <field name="connector" type="list"
+       <field name="list_parser" type="list"
                 
-            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_CONNECTOR"
-            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_CONNECTOR" 
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_LIST_PARSER"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_LIST_PARSER" 
                 
                 
-                 required="true" >
+                 required="true" 
+            menu_published="0"
+            filter="raw">
                 <option value="raw">raw</option>
                 <option value="rss">rss</option>
                 <option value="custom">custom</option>
         </field> 
 
  
-		<field name="filter_connector" type="list" onchange="this.form.submit();">
-			<option value="">COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR_FILTER</option>
+		<field name="filter_list_parser" type="list" onchange="this.form.submit();">
+			<option value="">COM_MORTAL_KONTRACTS_PROVIDERS_LIST_PARSER_FILTER</option>
 			<option value="raw">raw</option>
 			<option value="rss">rss</option>
 			<option value="custom">custom</option>
 		</field> 
 
-       <field name="parser" type="list"
+       <field name="item_parser" type="list"
                 
-            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_PARSER"
-            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_PARSER" 
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_ITEM_PARSER"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_ITEM_PARSER" 
                 
                 
                 
+            menu_published="0"
+            filter="raw"
             multiple="false">
                 <option value="raw">raw</option>
                 <option value="craigslist">craigslist</option>
@@ -53,8 +59,8 @@
         </field> 
 
  
-		<field name="filter_parser" type="list" onchange="this.form.submit();">
-			<option value="">COM_MORTAL_KONTRACTS_PROVIDERS_PARSER_FILTER</option>
+		<field name="filter_item_parser" type="list" onchange="this.form.submit();">
+			<option value="">COM_MORTAL_KONTRACTS_PROVIDERS_ITEM_PARSER_FILTER</option>
 			<option value="raw">raw</option>
 			<option value="craigslist">craigslist</option>
 			<option value="kijiji">kijiji</option>

@@ -60,7 +60,7 @@ class Mortal_kontractsViewLeads extends JViewLegacy {
         if (file_exists($formPath)) {
 
             if ($canDo->get('core.create')) {
-                JToolBarHelper::addNew('leads.retrieve', 'RETRIEVE LEADS');
+                JToolBarHelper::addNew('lead.add', 'JTOOLBAR_NEW');
             }
 
             if ($canDo->get('core.edit') && isset($this->items[0])) {
@@ -193,7 +193,7 @@ class Mortal_kontractsViewLeads extends JViewLegacy {
 		'a.created' => JText::_('COM_MORTAL_KONTRACTS_LEADS_CREATED'),
 		'a.checked_out' => JText::_('COM_MORTAL_KONTRACTS_LEADS_CHECKED_OUT'),
 		'a.checked_out_time' => JText::_('COM_MORTAL_KONTRACTS_LEADS_CHECKED_OUT_TIME'),
-		'a.name' => JText::_('COM_MORTAL_KONTRACTS_LEADS_NAME'),
+		'a.title' => JText::_('COM_MORTAL_KONTRACTS_LEADS_TITLE'),
 		'a.description' => JText::_('COM_MORTAL_KONTRACTS_LEADS_DESCRIPTION'),
 		'a.hits' => JText::_('COM_MORTAL_KONTRACTS_LEADS_HITS'),
 		'a.provider_id' => JText::_('COM_MORTAL_KONTRACTS_LEADS_PROVIDER_ID'),

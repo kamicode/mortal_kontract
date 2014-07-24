@@ -30,9 +30,9 @@ class Mortal_kontractsModelProviders extends JModelList {
                 'ordering', 'a.ordering',
                 'state', 'a.state',
                 'created_by', 'a.created_by',
-                'name', 'a.name',
-                'connector', 'a.connector',
-                'parser', 'a.parser',
+                'title', 'a.title',
+                'list_parser', 'a.list_parser',
+                'item_parser', 'a.item_parser',
                 'average_rating', 'a.average_rating',
                 'url', 'a.url',
                 'keywords', 'a.keywords',
@@ -60,11 +60,11 @@ class Mortal_kontractsModelProviders extends JModelList {
         $this->setState('filter.state', $published);
 
         
-		//Filtering connector
-		$this->setState('filter.connector', $app->getUserStateFromRequest($this->context.'.filter.connector', 'filter_connector', '', 'string'));
+		//Filtering list_parser
+		$this->setState('filter.list_parser', $app->getUserStateFromRequest($this->context.'.filter.list_parser', 'filter_list_parser', '', 'string'));
 
-		//Filtering parser
-		$this->setState('filter.parser', $app->getUserStateFromRequest($this->context.'.filter.parser', 'filter_parser', '', 'string'));
+		//Filtering item_parser
+		$this->setState('filter.item_parser', $app->getUserStateFromRequest($this->context.'.filter.item_parser', 'filter_item_parser', '', 'string'));
 
 
         // Load the parameters.
@@ -72,7 +72,7 @@ class Mortal_kontractsModelProviders extends JModelList {
         $this->setState('params', $params);
 
         // List state information.
-        parent::populateState('a.name', 'asc');
+        parent::populateState('a.title', 'asc');
     }
 
     /**
@@ -138,22 +138,22 @@ class Mortal_kontractsModelProviders extends JModelList {
                 $query->where('a.id = ' . (int) substr($search, 3));
             } else {
                 $search = $db->Quote('%' . $db->escape($search, true) . '%');
-                $query->where('( a.name LIKE '.$search.'  OR  a.keywords LIKE '.$search.' )');
+                $query->where('( a.title LIKE '.$search.'  OR  a.keywords LIKE '.$search.' )');
             }
         }
 
         
 
-		//Filtering connector
-		$filter_connector = $this->state->get("filter.connector");
-		if ($filter_connector) {
-			$query->where("a.connector = '".$db->escape($filter_connector)."'");
+		//Filtering list_parser
+		$filter_list_parser = $this->state->get("filter.list_parser");
+		if ($filter_list_parser) {
+			$query->where("a.list_parser = '".$db->escape($filter_list_parser)."'");
 		}
 
-		//Filtering parser
-		$filter_parser = $this->state->get("filter.parser");
-		if ($filter_parser) {
-			$query->where("a.parser = '".$db->escape($filter_parser)."'");
+		//Filtering item_parser
+		$filter_item_parser = $this->state->get("filter.item_parser");
+		if ($filter_item_parser) {
+			$query->where("a.item_parser = '".$db->escape($filter_item_parser)."'");
 		}
 
 
@@ -171,8 +171,8 @@ class Mortal_kontractsModelProviders extends JModelList {
         $items = parent::getItems();
         
 		foreach ($items as $oneItem) {
-					$oneItem->connector = JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR_OPTION_' . strtoupper($oneItem->connector));
-					$oneItem->parser = JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_PARSER_OPTION_' . strtoupper($oneItem->parser));
+					$oneItem->list_parser = JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_LIST_PARSER_OPTION_' . strtoupper($oneItem->list_parser));
+					$oneItem->item_parser = JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_ITEM_PARSER_OPTION_' . strtoupper($oneItem->item_parser));
 
 			if ( isset($oneItem->keywords) ) {
 				// Catch the item tags (string with ',' coma glue)

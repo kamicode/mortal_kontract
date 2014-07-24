@@ -80,8 +80,8 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 					<input type="hidden" name="jform[created_by]" value="<?php echo $this->item->created_by; ?>" />
 
 				<?php } ?>			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('name'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('name'); ?></div>
+				<div class="control-label"><?php echo $this->form->getLabel('title'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('title'); ?></div>
 			</div>
 			<div class="control-group">
 				<div class="control-label"><?php echo $this->form->getLabel('description'); ?></div>
@@ -125,6 +125,10 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 			<div class="control-group">
 				<div class="control-label"><?php echo $this->form->getLabel('posted'); ?></div>
 				<div class="controls"><?php echo $this->form->getInput('posted'); ?></div>
+			</div>
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('guid'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('guid'); ?></div>
 			</div>
 
 

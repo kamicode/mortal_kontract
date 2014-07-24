@@ -70,16 +70,16 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 					<input type="hidden" name="jform[created_by]" value="<?php echo $this->item->created_by; ?>" />
 
 				<?php } ?>			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('name'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('name'); ?></div>
+				<div class="control-label"><?php echo $this->form->getLabel('title'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('title'); ?></div>
 			</div>
 			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('connector'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('connector'); ?></div>
+				<div class="control-label"><?php echo $this->form->getLabel('list_parser'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('list_parser'); ?></div>
 			</div>
 			<div class="control-group">
-				<div class="control-label"><?php echo $this->form->getLabel('parser'); ?></div>
-				<div class="controls"><?php echo $this->form->getInput('parser'); ?></div>
+				<div class="control-label"><?php echo $this->form->getLabel('item_parser'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('item_parser'); ?></div>
 			</div>
 			<div class="control-group">
 				<div class="control-label"><?php echo $this->form->getLabel('average_rating'); ?></div>

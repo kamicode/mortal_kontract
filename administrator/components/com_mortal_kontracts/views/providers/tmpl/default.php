@@ -111,13 +111,13 @@ if (!empty($this->extra_sidebar)) {
                 <?php endif; ?>
                     
 				<th class='left'>
-				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_NAME', 'a.name', $listDirn, $listOrder); ?>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_TITLE', 'a.title', $listDirn, $listOrder); ?>
 				</th>
 				<th class='left'>
-				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR', 'a.connector', $listDirn, $listOrder); ?>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_LIST_PARSER', 'a.list_parser', $listDirn, $listOrder); ?>
 				</th>
 				<th class='left'>
-				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_PARSER', 'a.parser', $listDirn, $listOrder); ?>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_ITEM_PARSER', 'a.item_parser', $listDirn, $listOrder); ?>
 				</th>
 				<th class='left'>
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_AVERAGE_RATING', 'a.average_rating', $listDirn, $listOrder); ?>
@@ -197,18 +197,18 @@ if (!empty($this->extra_sidebar)) {
 				<?php endif; ?>
 				<?php if ($canEdit) : ?>
 					<a href="<?php echo JRoute::_('index.php?option=com_mortal_kontracts&task=provider.edit&id='.(int) $item->id); ?>">
-					<?php echo $this->escape($item->name); ?></a>
+					<?php echo $this->escape($item->title); ?></a>
 				<?php else : ?>
-					<?php echo $this->escape($item->name); ?>
+					<?php echo $this->escape($item->title); ?>
 				<?php endif; ?>
 				</td>
 				<td>
 
-					<?php echo $item->connector; ?>
+					<?php echo $item->list_parser; ?>
 				</td>
 				<td>
 
-					<?php echo $item->parser; ?>
+					<?php echo $item->item_parser; ?>
 				</td>
 				<td>
 

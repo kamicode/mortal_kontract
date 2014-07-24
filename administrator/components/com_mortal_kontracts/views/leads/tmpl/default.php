@@ -114,7 +114,7 @@ if (!empty($this->extra_sidebar)) {
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_CREATED', 'a.created', $listDirn, $listOrder); ?>
 				</th>
 				<th class='left'>
-				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_NAME', 'a.name', $listDirn, $listOrder); ?>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_TITLE', 'a.title', $listDirn, $listOrder); ?>
 				</th>
 				<th class='left'>
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_LEADS_DESCRIPTION', 'a.description', $listDirn, $listOrder); ?>
@@ -210,9 +210,9 @@ if (!empty($this->extra_sidebar)) {
 				<?php endif; ?>
 				<?php if ($canEdit) : ?>
 					<a href="<?php echo JRoute::_('index.php?option=com_mortal_kontracts&task=lead.edit&id='.(int) $item->id); ?>">
-					<?php echo $this->escape($item->name); ?></a>
+					<?php echo $this->escape($item->title); ?></a>
 				<?php else : ?>
-					<?php echo $this->escape($item->name); ?>
+					<?php echo $this->escape($item->title); ?>
 				<?php endif; ?>
 				</td>
 				<td>

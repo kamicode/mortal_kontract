@@ -14,13 +14,15 @@
             label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_CREATED_BY"
             description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_CREATED_BY"  /> 
 
-       <field name="name" type="text"
+       <field name="title" type="text"
                 
-            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_NAME"
-            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_NAME" 
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_TITLE"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_TITLE" 
                 
                 
-                 required="true"  /> 
+                 required="true" 
+            menu_published="0"
+            filter="raw" /> 
 
        <field name="description" type="textarea"
                 
@@ -63,11 +65,11 @@
 
  <field name="provider_id" type="foreignkey" class="inputbox"
             label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_PROVIDER_ID"
-            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_PROVIDER_ID" input_type="list" table="#__mortal_kontracts_providers" key_field="id" value_field="name"  required="true"  /> 
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_PROVIDER_ID" input_type="list" table="#__mortal_kontracts_providers" key_field="id" value_field="title"  required="true"  /> 
 
        <field name="filter_provider_id" type="sql" class="inputbox"
             onchange="this.form.submit();"
-            query="SELECT 0 AS `id`, '- Please select provider_id -' AS `val` UNION SELECT `id`, `name` AS val FROM `#__mortal_kontracts_providers`" key_field="id" value_field="val"
+            query="SELECT 0 AS `id`, '- Please select provider_id -' AS `val` UNION SELECT `id`, `title` AS val FROM `#__mortal_kontracts_providers`" key_field="id" value_field="val"
              /> 
 
        <field name="region" type="list"
@@ -124,6 +126,15 @@
             label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_POSTED"
             description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_POSTED" 
         filter="safehtml" /> 
+
+       <field name="guid" type="text"
+                
+            label="COM_MORTAL_KONTRACTS_FORM_LBL_LEAD_GUID"
+            description="COM_MORTAL_KONTRACTS_FORM_DESC_LEAD_GUID" 
+                
+                
+                
+            readonly="true" /> 
 
          <field
         name="state"

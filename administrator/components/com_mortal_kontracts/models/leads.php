@@ -30,7 +30,7 @@ class Mortal_kontractsModelLeads extends JModelList {
                 'state', 'a.state',
                 'created', 'a.created',
                 'created_by', 'a.created_by',
-                'name', 'a.name',
+                'title', 'a.title',
                 'description', 'a.description',
                 'url', 'a.url',
                 'checksum', 'a.checksum',
@@ -40,6 +40,7 @@ class Mortal_kontractsModelLeads extends JModelList {
                 'accepted_for_quote', 'a.accepted_for_quote',
                 'rating', 'a.rating',
                 'posted', 'a.posted',
+                'guid', 'a.guid',
 
             );
         }
@@ -76,7 +77,7 @@ class Mortal_kontractsModelLeads extends JModelList {
         $this->setState('params', $params);
 
         // List state information.
-        parent::populateState('a.name', 'asc');
+        parent::populateState('a.title', 'asc');
     }
 
     /**
@@ -125,7 +126,7 @@ class Mortal_kontractsModelLeads extends JModelList {
 		$query->select('created_by.name AS created_by');
 		$query->join('LEFT', '#__users AS created_by ON created_by.id = a.created_by');
 		// Join over the foreign key 'provider_id'
-		$query->select('#__mortal_kontracts_providers_1388949.name AS providers_name_1388949');
+		$query->select('#__mortal_kontracts_providers_1388949.title AS providers_title_1388949');
 		$query->join('LEFT', '#__mortal_kontracts_providers AS #__mortal_kontracts_providers_1388949 ON #__mortal_kontracts_providers_1388949.id = a.provider_id');
 
         
@@ -145,7 +146,7 @@ class Mortal_kontractsModelLeads extends JModelList {
                 $query->where('a.id = ' . (int) substr($search, 3));
             } else {
                 $search = $db->Quote('%' . $db->escape($search, true) . '%');
-                $query->where('( a.name LIKE '.$search.'  OR  a.description LIKE '.$search.'  OR  a.provider_id LIKE '.$search.'  OR  a.region LIKE '.$search.' )');
+                $query->where('( a.title LIKE '.$search.'  OR  a.description LIKE '.$search.'  OR  a.provider_id LIKE '.$search.'  OR  a.region LIKE '.$search.' )');
             }
         }
 
@@ -163,11 +164,6 @@ class Mortal_kontractsModelLeads extends JModelList {
 			$query->where("a.region = '".$db->escape($filter_region)."'");
 		}
 
-        //Filtering checksum
-		$filter_checksum = $this->state->get("filter.checksum");
-		if ($filter_checksum) {
-			$query->where("a.checksum = '".$db->escape($filter_checksum)."'");
-		}
 
         // Add the list ordering clause.
         $orderCol = $this->state->get('list.ordering');
@@ -192,13 +188,13 @@ class Mortal_kontractsModelLeads extends JModelList {
 					$db = JFactory::getDbo();
 					$query = $db->getQuery(true);
 					$query
-							->select('name')
+							->select('title')
 							->from('`#__mortal_kontracts_providers`')
 							->where('id = ' . $db->quote($db->escape($value)));
 					$db->setQuery($query);
 					$results = $db->loadObject();
 					if ($results) {
-						$textValue[] = $results->name;
+						$textValue[] = $results->title;
 					}
 				}
 
