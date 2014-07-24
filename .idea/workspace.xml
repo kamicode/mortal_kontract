@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5df4fe22-1763-4117-9056-229f87dca534" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mortal_kontract.iws" />
@@ -93,7 +92,7 @@
       <file leaf-file-name="mortal_kontracts.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.55607474" vertical-offset="0" max-vertical-offset="856">
+            <state line="30" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.7345679" vertical-offset="51" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -501,6 +500,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_mortal_kontracts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -577,7 +602,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25825346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39827773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39827773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -618,7 +643,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -874,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.55607474" vertical-offset="0" max-vertical-offset="856">
+        <state line="30" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.7345679" vertical-offset="51" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
