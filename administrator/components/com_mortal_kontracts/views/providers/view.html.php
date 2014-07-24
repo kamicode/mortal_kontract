@@ -172,6 +172,7 @@ class Mortal_kontractsViewProviders extends JViewLegacy {
 		'a.parser' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_PARSER'),
 		'a.average_rating' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_AVERAGE_RATING'),
 		'a.url' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_URL'),
+		'a.keywords' => JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_KEYWORDS'),
 		);
 	}
 

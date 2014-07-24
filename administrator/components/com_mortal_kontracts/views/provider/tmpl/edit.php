@@ -89,6 +89,10 @@ $document->addStyleSheet('components/com_mortal_kontracts/assets/css/mortal_kont
 				<div class="control-label"><?php echo $this->form->getLabel('url'); ?></div>
 				<div class="controls"><?php echo $this->form->getInput('url'); ?></div>
 			</div>
+			<div class="control-group">
+				<div class="control-label"><?php echo $this->form->getLabel('keywords'); ?></div>
+				<div class="controls"><?php echo $this->form->getInput('keywords'); ?></div>
+			</div>
 
 
                 </fieldset>

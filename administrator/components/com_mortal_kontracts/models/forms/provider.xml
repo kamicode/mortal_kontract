@@ -39,8 +39,12 @@
 		</field> 
 
        <field name="parser" type="list"
+                
             label="COM_MORTAL_KONTRACTS_FORM_LBL_PROVIDER_PARSER"
             description="COM_MORTAL_KONTRACTS_FORM_DESC_PROVIDER_PARSER" 
+                
+                
+                
             multiple="false">
                 <option value="raw">raw</option>
                 <option value="craigslist">craigslist</option>
@@ -77,6 +81,9 @@
                  required="true" 
             filter="url"
             size="100" /> 
+
+ 
+		<field name="keywords" type="tag" mode="ajax" label="Keywords" description="" multiple="true" custom="allow" required="true" /> 
 
          <field
         name="state"

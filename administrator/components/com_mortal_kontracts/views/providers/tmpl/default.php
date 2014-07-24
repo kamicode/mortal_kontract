@@ -125,6 +125,9 @@ if (!empty($this->extra_sidebar)) {
 				<th class='left'>
 				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_URL', 'a.url', $listDirn, $listOrder); ?>
 				</th>
+				<th class='left'>
+				<?php echo JHtml::_('grid.sort',  'COM_MORTAL_KONTRACTS_PROVIDERS_KEYWORDS', 'a.keywords', $listDirn, $listOrder); ?>
+				</th>
                     
                     
                 <?php if (isset($this->items[0]->id)): ?>
@@ -214,6 +217,10 @@ if (!empty($this->extra_sidebar)) {
 				<td>
 
 					<?php echo $item->url; ?>
+				</td>
+				<td>
+
+					<?php echo $item->keywords; ?>
 				</td>
 
 

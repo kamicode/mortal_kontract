@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS `#__mortal_kontracts_providers` (
 `parser` VARCHAR(255)  NOT NULL ,
 `average_rating` VARCHAR(2)  NOT NULL ,
 `url` VARCHAR(255)  NOT NULL ,
+`keywords` TEXT NOT NULL ,
 PRIMARY KEY (`id`)
 ) DEFAULT COLLATE=utf8_general_ci;
 

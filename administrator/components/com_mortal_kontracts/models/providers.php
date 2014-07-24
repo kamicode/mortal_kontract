@@ -35,6 +35,7 @@ class Mortal_kontractsModelProviders extends JModelList {
                 'parser', 'a.parser',
                 'average_rating', 'a.average_rating',
                 'url', 'a.url',
+                'keywords', 'a.keywords',
 
             );
         }
@@ -137,7 +138,7 @@ class Mortal_kontractsModelProviders extends JModelList {
                 $query->where('a.id = ' . (int) substr($search, 3));
             } else {
                 $search = $db->Quote('%' . $db->escape($search, true) . '%');
-                $query->where('( a.name LIKE '.$search.' )');
+                $query->where('( a.name LIKE '.$search.'  OR  a.keywords LIKE '.$search.' )');
             }
         }
 
@@ -169,6 +170,43 @@ class Mortal_kontractsModelProviders extends JModelList {
     public function getItems() {
         $items = parent::getItems();
         
+		foreach ($items as $oneItem) {
+					$oneItem->connector = JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_CONNECTOR_OPTION_' . strtoupper($oneItem->connector));
+					$oneItem->parser = JText::_('COM_MORTAL_KONTRACTS_PROVIDERS_PARSER_OPTION_' . strtoupper($oneItem->parser));
+
+			if ( isset($oneItem->keywords) ) {
+				// Catch the item tags (string with ',' coma glue)
+				$tags = explode(",",$oneItem->keywords);
+
+				$db = JFactory::getDbo();
+					$namedTags = array(); // Cleaning and initalization of named tags array
+
+					// Get the tag names of each tag id
+					foreach ($tags as $tag) {
+
+						$query = $db->getQuery(true);
+						$query->select("title");
+						$query->from('`#__tags`');
+						$query->where( "id=" . intval($tag) );
+
+						$db->setQuery($query);
+						$row = $db->loadObjectList();
+
+						// Read the row and get the tag name (title)
+						if (!is_null($row)) {
+							foreach ($row as $value) {
+								if ( $value && isset($value->title) ) {
+									$namedTags[] = trim($value->title);
+								}
+							}
+						}
+
+					}
+
+					// Finally replace the data object with proper information
+					$oneItem->keywords = !empty($namedTags) ? implode(', ',$namedTags) : $oneItem->keywords;
+				}
+		}
         return $items;
     }
 
