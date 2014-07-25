@@ -73,17 +73,26 @@ class Mortal_kontractsControllerLeads extends JControllerAdmin
             foreach($providers as $provider)
             {
                 $lead_list = Mortal_kontractsHelper::getLeadList($provider);
-                $lead_data = Mortal_kontractsHelper::getLeadItem($lead_list, $provider->item_parser);
-
-                foreach($lead_data as $lead)
+                
+                //filter out the guid already in the db
+                $filtered_lead_list = array();
+                foreach($lead_list as $lead)
                 {
-                    //check if checksum is already in db, if not add new record
-                    $leads_model->setState('filter.checksum', $lead['checksum']);
+                    //check if guid is already in db, if not add new record
+                    $leads_model->setState('filter.guid', $lead['guid']);
                     if($leads_model->getTotal() == 0)
                     {
-                        $lead_model = parent::getModel('lead', 'Mortal_kontractsModel', array('ignore_request' => true));
-                        $lead_model->save($lead);
+                        $filtered_lead_list[] = $lead;
                     }
+                }
+                
+                $lead_data = Mortal_kontractsHelper::getLeadItem($filtered_lead_list, $provider->item_parser);
+
+                //save each lead
+                foreach($lead_data as $lead)
+                {
+                    $lead_model = parent::getModel('lead', 'Mortal_kontractsModel', array('ignore_request' => true));
+                    $lead_model->save($lead);
                 }
             }
         }

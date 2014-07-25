@@ -75,16 +75,17 @@ class Mortal_kontractsHelper {
                 {
                     $items[]= array("url"=>$item->get_permalink(), 
                         "title"=>$item->get_title(), 
-                        "description"=>$item->get_description(), 
+                        "description"=>$item->get_description(), //description will most probably be overriden in lead parser
                         "created"=>date("Y-m-d H:i:s"),
                         "posted"=>$item->get_date("Y-m-d H:i:s"),
                         "guid"=>$item->get_id(false),
                         "checksum"=>$item->get_id(true),
-                        "hits"=>0,
-                        "region"=>"canada",
+                        "hits"=>0, //hits might be filled lead parser
+                        "region"=>"canada", //TBD
                         "accepted_for_quote"=>false,
                         "rating"=>3,
-                        "provider_id"=>$providerId);
+                        "provider_id"=>$providerId,
+                        "state"=>1);  //state is published by default
                     
                 }
                 break;
@@ -103,20 +104,53 @@ class Mortal_kontractsHelper {
                 foreach($leads as &$lead)
                 {
                     $html = file_get_html($lead['url']);
-
-                    foreach($html->find('span') as $element)
+                    $element = $html->find('span[class=summary]', 0);
+                    if(!empty($element))
                     {
-                       if($element->class == 'summary')
-                       {
-                           $lead['description'] = '<pre>' . $element->plaintext . '</pre>';
-                       }
+                        $lead['description'] = '<pre>' . $element->plaintext . '</pre>';
                     }
                 }
-                
-                return $leads;
+                break;
+            case 'kijiji':
+                foreach($leads as &$lead)
+                {
+                    $html = file_get_html($lead['url']);
+                    
+                    //fetch description
+                    $element = $html->find('div[id=UserContent]', 0);
+                    if(!empty($element))
+                    {
+                        $element = $element->find('span[itemprop=description]', 0);
+                        if(!empty($element))
+                        {
+                            $lead['description'] = '<pre>' . $element->plaintext . '</pre>';
+                        }
+                    }
+                    
+                    // fetch hits
+                    $element = $html->find('input[name=adId]', 0);
+                    if(!empty($element))
+                    {
+                        $json = file_get_contents("http://www.kijiji.ca/j-vac-inc-get.json?adId=" . $element->value);
+                        $adObject = json_decode($json);
+                        if(!empty($adObject->numVisits))
+                        {
+                            $lead['hits'] = $adObject->numVisits;
+                        }
+                    }
+                    
+                    // adjust rating
+                    $element = $html->find('span[itemprop=employmentType]', 0);
+                    if(!empty($element))
+                    {
+                        if(stristr($element->plaintext, 'Contract')) 
+                        {
+                            $lead['rating']++;
+                        }
+                    }
+                }
                 break;
             default:
-                return $leads;
                 break;
         }
 

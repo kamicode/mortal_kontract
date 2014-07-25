@@ -95,6 +95,7 @@ class Mortal_kontractsModelLeads extends JModelList {
         // Compile the store id.
         $id.= ':' . $this->getState('filter.search');
         $id.= ':' . $this->getState('filter.state');
+        $id.= ':' . md5($this->getState('filter.guid'));
 
         return parent::getStoreId($id);
     }
@@ -150,20 +151,23 @@ class Mortal_kontractsModelLeads extends JModelList {
             }
         }
 
-        
+        //Filtering provider_id
+        $filter_provider_id = $this->state->get("filter.provider_id");
+        if ($filter_provider_id) {
+                $query->where("a.provider_id = '".$db->escape($filter_provider_id)."'");
+        }
 
-		//Filtering provider_id
-		$filter_provider_id = $this->state->get("filter.provider_id");
-		if ($filter_provider_id) {
-			$query->where("a.provider_id = '".$db->escape($filter_provider_id)."'");
-		}
+        //Filtering region
+        $filter_region = $this->state->get("filter.region");
+        if ($filter_region) {
+                $query->where("a.region = '".$db->escape($filter_region)."'");
+        }
 
-		//Filtering region
-		$filter_region = $this->state->get("filter.region");
-		if ($filter_region) {
-			$query->where("a.region = '".$db->escape($filter_region)."'");
-		}
-
+        //Filtering guid
+        $filter_guid = $this->state->get("filter.guid");
+        if ($filter_guid) {
+            $query->where("a.guid = '".$db->escape($filter_guid)."'");
+	}
 
         // Add the list ordering clause.
         $orderCol = $this->state->get('list.ordering');
