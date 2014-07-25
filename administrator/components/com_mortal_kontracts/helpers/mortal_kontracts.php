@@ -150,6 +150,30 @@ class Mortal_kontractsHelper {
                     }
                 }
                 break;
+            case 'craigslist':
+                foreach($leads as &$lead)
+                {
+                    $html = file_get_html($lead['url']);
+                    $element = $html->find('section[id=postingbody]', 0);
+                    if(!empty($element))
+                    {
+                        $lead['description'] = '<pre>' . $element->plaintext . '</pre>';
+                    }
+                }
+                break;
+            case 'elance':
+                //for elance, replace the smaller description by the extended description but keep other info being given by rss
+                foreach($leads as &$lead)
+                {
+                    $html = file_get_html($lead['url']);
+                    $element = $html->find('p[id=jobDescText]', 0);
+                    if(!empty($element))
+                    {
+                        $kept_description = preg_replace('/(.*)(<b>Category:<\/b>)/s', '$2', $lead['description']);
+                        $lead['description'] = '<pre>' . $element->plaintext . '</pre>' . $kept_description;
+                    }
+                }
+                break;                
             default:
                 break;
         }
