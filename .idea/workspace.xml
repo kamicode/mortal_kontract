@@ -2,8 +2,233 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5df4fe22-1763-4117-9056-229f87dca534" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" afterPath="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/jui/img/ajax-loader.gif" afterPath="$PROJECT_DIR$/media/jui/img/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/legacy/controller/admin.php" afterPath="$PROJECT_DIR$/libraries/legacy/controller/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/legacy/model/admin.php" afterPath="$PROJECT_DIR$/libraries/legacy/model/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_content/models/article.php" afterPath="$PROJECT_DIR$/administrator/components/com_content/models/article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/models/articles.php" afterPath="$PROJECT_DIR$/components/com_content/models/articles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/document/feed/renderer/atom.php" afterPath="$PROJECT_DIR$/libraries/joomla/document/feed/renderer/atom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/be.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/be.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/category/tmpl/blog_children.php" afterPath="$PROJECT_DIR$/components/com_content/views/category/tmpl/blog_children.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/category/tmpl/blog_item.php" afterPath="$PROJECT_DIR$/components/com_content/views/category/tmpl/blog_item.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/joomla/content/blog_style_default_item_title.php" afterPath="$PROJECT_DIR$/layouts/joomla/content/blog_style_default_item_title.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/ca.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/cache/cache.php" afterPath="$PROJECT_DIR$/libraries/joomla/cache/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/system/cache/cache.php" afterPath="$PROJECT_DIR$/plugins/system/cache/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/system/js/caption-uncompressed.js" afterPath="$PROJECT_DIR$/media/system/js/caption-uncompressed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/system/js/caption.js" afterPath="$PROJECT_DIR$/media/system/js/caption.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_categories/models/category.php" afterPath="$PROJECT_DIR$/administrator/components/com_categories/models/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_contact/models/category.php" afterPath="$PROJECT_DIR$/components/com_contact/models/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_newsfeeds/models/category.php" afterPath="$PROJECT_DIR$/components/com_newsfeeds/models/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_weblinks/models/category.php" afterPath="$PROJECT_DIR$/components/com_weblinks/models/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_categories/models/fields/categoryedit.php" afterPath="$PROJECT_DIR$/administrator/components/com_categories/models/fields/categoryedit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/changelog.txt" afterPath="$PROJECT_DIR$/media/editors/tinymce/changelog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_checkin/models/checkin.php" afterPath="$PROJECT_DIR$/administrator/components/com_checkin/models/checkin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/application/cms.php" afterPath="$PROJECT_DIR$/libraries/cms/application/cms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/views/default/tmpl/complete.php" afterPath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/views/default/tmpl/complete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/hathor/component.php" afterPath="$PROJECT_DIR$/administrator/templates/hathor/component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/component.php" afterPath="$PROJECT_DIR$/administrator/templates/isis/component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/beez3/component.php" afterPath="$PROJECT_DIR$/templates/beez3/component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/protostar/component.php" afterPath="$PROJECT_DIR$/templates/protostar/component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/system/component.php" afterPath="$PROJECT_DIR$/templates/system/component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_contact/controllers/contact.php" afterPath="$PROJECT_DIR$/components/com_contact/controllers/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/table/contenttype.php" afterPath="$PROJECT_DIR$/libraries/cms/table/contenttype.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/controller.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_mailto/controller.php" afterPath="$PROJECT_DIR$/components/com_mailto/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/authentication/cookie/cookie.php" afterPath="$PROJECT_DIR$/plugins/authentication/cookie/cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/hathor/cpanel.php" afterPath="$PROJECT_DIR$/administrator/templates/hathor/cpanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/cs.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/da.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/de.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/system/debug/debug.php" afterPath="$PROJECT_DIR$/plugins/system/debug/debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_categories/views/categories/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_categories/views/categories/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_installer/views/database/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_installer/views/database/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_installer/views/discover/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_installer/views/discover/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_installer/views/languages/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_installer/views/languages/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_installer/views/manage/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_installer/views/manage/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_installer/views/update/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_installer/views/update/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_installer/views/warnings/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_installer/views/warnings/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/models/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/models/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/views/default/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/views/default/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_languages/views/installed/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_languages/views/installed/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_languages/views/languages/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_languages/views/languages/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/article/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_content/views/article/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/joomla/searchtools/default.php" afterPath="$PROJECT_DIR$/layouts/joomla/searchtools/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/category/tmpl/default_children.php" afterPath="$PROJECT_DIR$/components/com_content/views/category/tmpl/default_children.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/views/profile/tmpl/default_custom.php" afterPath="$PROJECT_DIR$/components/com_users/views/profile/tmpl/default_custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/featured/tmpl/default_item.php" afterPath="$PROJECT_DIR$/components/com_content/views/featured/tmpl/default_item.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_contact/views/categories/tmpl/default_items.php" afterPath="$PROJECT_DIR$/components/com_contact/views/categories/tmpl/default_items.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/categories/tmpl/default_items.php" afterPath="$PROJECT_DIR$/components/com_content/views/categories/tmpl/default_items.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_newsfeeds/views/categories/tmpl/default_items.php" afterPath="$PROJECT_DIR$/components/com_newsfeeds/views/categories/tmpl/default_items.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_weblinks/views/categories/tmpl/default_items.php" afterPath="$PROJECT_DIR$/components/com_weblinks/views/categories/tmpl/default_items.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_finder/models/fields/directories.php" afterPath="$PROJECT_DIR$/administrator/components/com_finder/models/fields/directories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/helpers/download.php" afterPath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/helpers/download.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_admin/postinstall/eaccelerator.php" afterPath="$PROJECT_DIR$/administrator/components/com_admin/postinstall/eaccelerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/html/email.php" afterPath="$PROJECT_DIR$/libraries/cms/html/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/content/emailcloak/emailcloak.php" afterPath="$PROJECT_DIR$/plugins/content/emailcloak/emailcloak.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_categories.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_categories.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_installer.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_installer.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_joomlaupdate.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_joomlaupdate.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_menus.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_menus.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_tags.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_tags.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_templates.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_templates.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.lib_joomla.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.lib_joomla.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.lib_joomla.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.lib_joomla.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/hathor/error.php" afterPath="$PROJECT_DIR$/administrator/templates/hathor/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/error.php" afterPath="$PROJECT_DIR$/administrator/templates/isis/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/beez3/error.php" afterPath="$PROJECT_DIR$/templates/beez3/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/protostar/error.php" afterPath="$PROJECT_DIR$/templates/protostar/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/system/error.php" afterPath="$PROJECT_DIR$/templates/system/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_contact/models/featured.php" afterPath="$PROJECT_DIR$/components/com_contact/models/featured.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/fi.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/cache/storage/file.php" afterPath="$PROJECT_DIR$/libraries/joomla/cache/storage/file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/fr.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/controllers/group.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/controllers/group.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/controllers/groups.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/controllers/groups.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/help/help.php" afterPath="$PROJECT_DIR$/libraries/cms/help/help.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/modules/mod_stats_admin/helper.php" afterPath="$PROJECT_DIR$/administrator/modules/mod_stats_admin/helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/installer/helper.php" afterPath="$PROJECT_DIR$/libraries/cms/installer/helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_tags_popular/helper.php" afterPath="$PROJECT_DIR$/modules/mod_tags_popular/helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_tags_similar/helper.php" afterPath="$PROJECT_DIR$/modules/mod_tags_similar/helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/document/html/html.php" afterPath="$PROJECT_DIR$/libraries/joomla/document/html/html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/hu.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/id.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/image/image.php" afterPath="$PROJECT_DIR$/libraries/joomla/image/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/hathor/index.php" afterPath="$PROJECT_DIR$/administrator/templates/hathor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/index.php" afterPath="$PROJECT_DIR$/administrator/templates/isis/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/beez3/index.php" afterPath="$PROJECT_DIR$/templates/beez3/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/protostar/index.php" afterPath="$PROJECT_DIR$/templates/protostar/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_finder/helpers/indexer/indexer.php" afterPath="$PROJECT_DIR$/administrator/components/com_finder/helpers/indexer/indexer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_installer/models/install.php" afterPath="$PROJECT_DIR$/administrator/components/com_installer/models/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/it.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_menus/controllers/item.php" afterPath="$PROJECT_DIR$/administrator/components/com_menus/controllers/item.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/ja.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/content/joomla/joomla.php" afterPath="$PROJECT_DIR$/plugins/content/joomla/joomla.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/user/joomla/joomla.php" afterPath="$PROJECT_DIR$/plugins/user/joomla/joomla.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/manifests/files/joomla.xml" afterPath="$PROJECT_DIR$/administrator/manifests/files/joomla.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_joomlaupdate/json2.js" afterPath="$PROJECT_DIR$/media/com_joomlaupdate/json2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/beez3/jsstrings.php" afterPath="$PROJECT_DIR$/templates/beez3/jsstrings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/system/languagefilter/languagefilter.php" afterPath="$PROJECT_DIR$/plugins/system/languagefilter/languagefilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/legacy/controller/legacy.php" afterPath="$PROJECT_DIR$/libraries/legacy/controller/legacy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/legacy/view/legacy.php" afterPath="$PROJECT_DIR$/libraries/legacy/view/legacy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/controllers/level.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/controllers/level.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/controllers/levels.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/controllers/levels.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_redirect/models/link.php" afterPath="$PROJECT_DIR$/administrator/components/com_redirect/models/link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/legacy/model/list.php" afterPath="$PROJECT_DIR$/libraries/legacy/model/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/hathor/login.php" afterPath="$PROJECT_DIR$/administrator/templates/hathor/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/login.php" afterPath="$PROJECT_DIR$/administrator/templates/isis/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/lv.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/controllers/mail.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/controllers/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/models/mail.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/models/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/form/field/media.php" afterPath="$PROJECT_DIR$/libraries/cms/form/field/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/html/menu.php" afterPath="$PROJECT_DIR$/libraries/cms/html/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_messages/models/message.php" afterPath="$PROJECT_DIR$/administrator/components/com_messages/models/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/mk.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/modules/mod_stats_admin/mod_stats_admin.php" afterPath="$PROJECT_DIR$/administrator/modules/mod_stats_admin/mod_stats_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/system/js/modal-uncompressed.js" afterPath="$PROJECT_DIR$/media/system/js/modal-uncompressed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/system/css/modal.css" afterPath="$PROJECT_DIR$/media/system/css/modal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/system/js/modal.js" afterPath="$PROJECT_DIR$/media/system/js/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/users/tmpl/modal.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/users/tmpl/modal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/hathor/html/com_users/users/modal.php" afterPath="$PROJECT_DIR$/administrator/templates/hathor/html/com_users/users/modal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/protostar/html/modules.php" afterPath="$PROJECT_DIR$/templates/protostar/html/modules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/database/driver/mysqli.php" afterPath="$PROJECT_DIR$/libraries/joomla/database/driver/mysqli.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/nl.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/system/offline.php" afterPath="$PROJECT_DIR$/templates/system/offline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/protostar/html/pagination.php" afterPath="$PROJECT_DIR$/templates/protostar/html/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/joomla/edit/params.php" afterPath="$PROJECT_DIR$/layouts/joomla/edit/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/advlist/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/anchor/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/autolink/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/autoresize/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/code/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/contextmenu/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/fullpage/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/image/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/legacyoutput/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/link/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/media/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/paste/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/spellchecker/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/table/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/plugins/textcolor/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/user/profile/profile.php" afterPath="$PROJECT_DIR$/plugins/user/profile/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/user/profile/profiles/profile.xml" afterPath="$PROJECT_DIR$/plugins/user/profile/profiles/profile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_finder/helpers/indexer/query.php" afterPath="$PROJECT_DIR$/administrator/components/com_finder/helpers/indexer/query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/document/renderer.php" afterPath="$PROJECT_DIR$/libraries/joomla/document/renderer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/controllers/reset.php" afterPath="$PROJECT_DIR$/components/com_users/controllers/reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/document/feed/renderer/rss.php" afterPath="$PROJECT_DIR$/libraries/joomla/document/feed/renderer/rss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_finder/models/search.php" afterPath="$PROJECT_DIR$/components/com_finder/models/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_search/models/search.php" afterPath="$PROJECT_DIR$/components/com_search/models/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/system/sef/sef.php" afterPath="$PROJECT_DIR$/plugins/system/sef/sef.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/html/select.php" afterPath="$PROJECT_DIR$/libraries/cms/html/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/router/site.php" afterPath="$PROJECT_DIR$/libraries/cms/router/site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/sk.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/media/editors/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/media/editors/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/database/driver/sqlite.php" afterPath="$PROJECT_DIR$/libraries/joomla/database/driver/sqlite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_templates/models/style.php" afterPath="$PROJECT_DIR$/administrator/components/com_templates/models/style.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/sv.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/sw.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/sw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/langs/ta.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/langs/ta.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_tags/models/tag.php" afterPath="$PROJECT_DIR$/administrator/components/com_tags/models/tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_tags/models/tag.php" afterPath="$PROJECT_DIR$/components/com_tags/models/tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_tags/models/tags.php" afterPath="$PROJECT_DIR$/components/com_tags/models/tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_templates/models/template.php" afterPath="$PROJECT_DIR$/administrator/components/com_templates/models/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_templates/helpers/templates.php" afterPath="$PROJECT_DIR$/administrator/components/com_templates/helpers/templates.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/themes/modern/theme.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/editors/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/media/editors/tinymce/tinymce.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/editors/tinymce/tinymce.php" afterPath="$PROJECT_DIR$/plugins/editors/tinymce/tinymce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/editors/tinymce/tinymce.xml" afterPath="$PROJECT_DIR$/plugins/editors/tinymce/tinymce.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/includes/toolbar.php" afterPath="$PROJECT_DIR$/administrator/includes/toolbar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/fof/encrypt/totp.php" afterPath="$PROJECT_DIR$/libraries/fof/encrypt/totp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_banners/models/tracks.php" afterPath="$PROJECT_DIR$/administrator/components/com_banners/models/tracks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/jui/js/treeselectmenu.jquery.js" afterPath="$PROJECT_DIR$/media/jui/js/treeselectmenu.jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/jui/js/treeselectmenu.jquery.min.js" afterPath="$PROJECT_DIR$/media/jui/js/treeselectmenu.jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_joomlaupdate/update.js" afterPath="$PROJECT_DIR$/media/com_joomlaupdate/update.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/controllers/user.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/controllers/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/controllers/user.php" afterPath="$PROJECT_DIR$/components/com_users/controllers/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/users.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/models/users.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/models/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/cms/version/version.php" afterPath="$PROJECT_DIR$/libraries/cms/version/version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/featured/view.feed.php" afterPath="$PROJECT_DIR$/components/com_content/views/featured/view.feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_finder/views/search/view.feed.php" afterPath="$PROJECT_DIR$/components/com_finder/views/search/view.feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_tags/views/tag/view.feed.php" afterPath="$PROJECT_DIR$/components/com_tags/views/tag/view.feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_tags/views/tags/view.feed.php" afterPath="$PROJECT_DIR$/components/com_tags/views/tags/view.feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_admin/views/sysinfo/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_admin/views/sysinfo/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/views/default/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_joomlaupdate/views/default/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_templates/views/template/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_templates/views/template/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/debuggroup/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/debuggroup/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/debuguser/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/debuguser/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/group/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/group/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/groups/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/groups/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/level/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/level/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/levels/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/levels/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/note/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/note/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/user/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/user/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_users/views/users/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_users/views/users/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_contact/views/contact/view.html.php" afterPath="$PROJECT_DIR$/components/com_contact/views/contact/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_contact/views/featured/view.html.php" afterPath="$PROJECT_DIR$/components/com_contact/views/featured/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/archive/view.html.php" afterPath="$PROJECT_DIR$/components/com_content/views/archive/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/article/view.html.php" afterPath="$PROJECT_DIR$/components/com_content/views/article/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/featured/view.html.php" afterPath="$PROJECT_DIR$/components/com_content/views/featured/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_content/views/form/view.html.php" afterPath="$PROJECT_DIR$/components/com_content/views/form/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_finder/views/search/view.html.php" afterPath="$PROJECT_DIR$/components/com_finder/views/search/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_newsfeeds/views/newsfeed/view.html.php" afterPath="$PROJECT_DIR$/components/com_newsfeeds/views/newsfeed/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_search/views/search/view.html.php" afterPath="$PROJECT_DIR$/components/com_search/views/search/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_tags/views/tag/view.html.php" afterPath="$PROJECT_DIR$/components/com_tags/views/tag/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_tags/views/tags/view.html.php" afterPath="$PROJECT_DIR$/components/com_tags/views/tags/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/views/login/view.html.php" afterPath="$PROJECT_DIR$/components/com_users/views/login/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/views/profile/view.html.php" afterPath="$PROJECT_DIR$/components/com_users/views/profile/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/views/registration/view.html.php" afterPath="$PROJECT_DIR$/components/com_users/views/registration/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/views/remind/view.html.php" afterPath="$PROJECT_DIR$/components/com_users/views/remind/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_users/views/reset/view.html.php" afterPath="$PROJECT_DIR$/components/com_users/views/reset/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_weblinks/views/form/view.html.php" afterPath="$PROJECT_DIR$/components/com_weblinks/views/form/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_wrapper/views/wrapper/view.html.php" afterPath="$PROJECT_DIR$/components/com_wrapper/views/wrapper/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_finder/views/search/view.opensearch.php" afterPath="$PROJECT_DIR$/components/com_finder/views/search/view.opensearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_search/views/search/view.opensearch.php" afterPath="$PROJECT_DIR$/components/com_search/views/search/view.opensearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/application/web.php" afterPath="$PROJECT_DIR$/libraries/joomla/application/web.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/cache/storage/xcache.php" afterPath="$PROJECT_DIR$/libraries/joomla/cache/storage/xcache.php" />
     </list>
     <ignored path="mortal_kontract.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +251,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simplepie.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/simplepie/simplepie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="8" selection-start="6017" selection-end="6017" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="3655">
+            <state line="178" column="8" selection-start="6259" selection-end="6259" vertical-scroll-proportion="-0.0" vertical-offset="3026" max-vertical-offset="3723">
               <folding />
             </state>
           </provider>
@@ -65,7 +281,7 @@
       <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="9" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-8.384615" vertical-offset="887" max-vertical-offset="1785">
+            <state line="71" column="9" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
@@ -92,7 +308,7 @@
       <file leaf-file-name="mortal_kontracts.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.7345679" vertical-offset="51" max-vertical-offset="595">
+            <state line="30" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.47663552" vertical-offset="0" max-vertical-offset="856">
               <folding />
             </state>
           </provider>
@@ -101,7 +317,7 @@
       <file leaf-file-name="view.html.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="42" selection-start="2125" selection-end="2125" vertical-scroll-proportion="-18.961538" vertical-offset="646" max-vertical-offset="3519">
+            <state line="73" column="42" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="3621">
               <folding />
             </state>
           </provider>
@@ -110,7 +326,7 @@
       <file leaf-file-name="mortal_kontracts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="34" selection-start="1634" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1802">
+            <state line="63" column="27" selection-start="1634" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="3230">
               <folding />
             </state>
           </provider>
@@ -141,6 +357,7 @@
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php" />
+        <option value="$PROJECT_DIR$/templates/protostar/index.php" />
       </list>
     </option>
   </component>
@@ -203,6 +420,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mortal_kontract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protostar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,248 +533,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en-GB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mortal_kontract" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_mortal_kontracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -601,19 +608,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25825346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39827773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26091588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39789474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -647,6 +654,76 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/libraries/simplepie/simplepie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="8" selection-start="6259" selection-end="6259" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/provider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/providers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="5" selection-start="5561" selection-end="5561" vertical-scroll-proportion="0.0" vertical-offset="2924" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="9" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="42" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="3621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="27" selection-start="1634" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="3230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/simplepie/simplepie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255221">
@@ -754,9 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2210">
-          <folding />
-        </state>
+        <state line="18" column="1" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_mortal_kontracts/mortal_kontracts.php">
@@ -766,9 +841,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/provider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="2919" selection-end="2919" vertical-scroll-proportion="-27.346153" vertical-offset="1329" max-vertical-offset="2193">
-          <folding />
-        </state>
+        <state line="121" column="0" selection-start="2919" selection-end="2919" vertical-scroll-proportion="-27.346153" vertical-offset="1329" max-vertical-offset="2193" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/lead.php">
@@ -802,9 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/tables/lead.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.9615384" vertical-offset="51" max-vertical-offset="3978">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.9615384" vertical-offset="51" max-vertical-offset="3978" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/simplepie/README.txt">
@@ -843,9 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/providers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="542" selection-end="542" vertical-scroll-proportion="0.1197411" vertical-offset="161" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="22" column="7" selection-start="542" selection-end="542" vertical-scroll-proportion="0.1197411" vertical-offset="161" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controller.php">
@@ -864,7 +933,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/models/leads.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="8" selection-start="6017" selection-end="6017" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="3655">
+        <state line="178" column="8" selection-start="6259" selection-end="6259" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="3723">
           <folding />
         </state>
       </provider>
@@ -878,28 +947,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/helpers/mortal_kontracts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="34" selection-start="1634" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1802">
+        <state line="63" column="27" selection-start="1634" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="3230">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/controllers/leads.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="9" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-8.384615" vertical-offset="887" max-vertical-offset="1785">
+        <state line="71" column="9" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1836">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/views/leads/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="42" selection-start="2125" selection-end="2125" vertical-scroll-proportion="-18.961538" vertical-offset="646" max-vertical-offset="3519">
+        <state line="73" column="42" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="3621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/protostar/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="41" selection-start="912" selection-end="912" vertical-scroll-proportion="0.5041518" vertical-offset="0" max-vertical-offset="3451">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_mortal_kontracts/mortal_kontracts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.7345679" vertical-offset="51" max-vertical-offset="595">
+        <state line="30" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.47663552" vertical-offset="0" max-vertical-offset="856">
           <folding />
         </state>
       </provider>
